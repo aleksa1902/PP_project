@@ -1,0 +1,98 @@
+INFO  14:16:04,027 - Compiling source file: D:\eclipse-workspace\propalipokusaj\test\program.mj
+INFO  14:16:04,048 - #2 program
+INFO  14:16:04,048 - #56 test301
+INFO  14:16:04,048 - #43 {
+INFO  14:16:04,049 - #15 void
+INFO  14:16:04,049 - #56 main
+INFO  14:16:04,049 - #39 (
+INFO  14:16:04,050 - #40 )
+INFO  14:16:04,051 - #56 int
+INFO  14:16:04,051 - #56 bodovi
+INFO  14:16:04,052 - #36 ;
+INFO  14:16:04,052 - #43 {
+INFO  14:16:04,052 - #56 bodovi
+INFO  14:16:04,052 - #33 =
+INFO  14:16:04,053 - #54 0
+INFO  14:16:04,054 - #36 ;
+INFO  14:16:04,054 - #12 print
+INFO  14:16:04,054 - #39 (
+INFO  14:16:04,054 - #56 bodovi
+INFO  14:16:04,054 - #40 )
+INFO  14:16:04,055 - #36 ;
+INFO  14:16:04,055 - #44 }
+INFO  14:16:04,055 - #44 }
+INFO  14:16:04,057 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  EmptyGlobalDecl(
+  ) [EmptyGlobalDecl]
+  MulMethodDeclList(
+    NoneMethodDeclList(
+    ) [NoneMethodDeclList]
+    MethodDecl(
+      MethodStart(
+        MethodTypeVoid(
+         main
+        ) [MethodTypeVoid]
+      ) [MethodStart]
+      EmptyFormPars(
+      ) [EmptyFormPars]
+      MulMethodVarDeclList(
+        EmptyMethodVarDeclList(
+        ) [EmptyMethodVarDeclList]
+        VarDeclNoError(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclList(
+            OneVarDef(
+             bodovi
+            ) [OneVarDef]
+          ) [SingleVarDeclList]
+        ) [VarDeclNoError]
+      ) [MulMethodVarDeclList]
+      MulStatementList(
+        MulStatementList(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          StatementClassic(
+            DesingnatorVal(
+              Designator(
+               bodovi
+                DesignatorClassic(
+                ) [DesignatorClassic]
+              ) [Designator]
+              AssignopClassic(
+              ) [AssignopClassic]
+              ExprClassic(
+                TermClassic(
+                  ConstNumFactor(
+                   0
+                  ) [ConstNumFactor]
+                ) [TermClassic]
+              ) [ExprClassic]
+            ) [DesingnatorVal]
+          ) [StatementClassic]
+        ) [MulStatementList]
+        PrintStatementNoArgs(
+          ExprClassic(
+            TermClassic(
+              MethodFactor(
+                Designator(
+                 bodovi
+                  DesignatorClassic(
+                  ) [DesignatorClassic]
+                ) [Designator]
+                NoneFactorParsOpt(
+                ) [NoneFactorParsOpt]
+              ) [MethodFactor]
+            ) [TermClassic]
+          ) [ExprClassic]
+        ) [PrintStatementNoArgs]
+      ) [MulStatementList]
+    ) [MethodDecl]
+  ) [MulMethodDeclList]
+) [Program]
+INFO  14:16:04,057 - ===================================
+INFO  14:16:04,057 - Parsiranje uspesno zavrseno! :D

@@ -1,0 +1,104 @@
+INFO  14:18:17,099 - Compiling source file: D:\eclipse-workspace\propalipokusaj\test\program.mj
+INFO  14:18:17,123 - #2 program
+INFO  14:18:17,123 - #56 test301
+INFO  14:18:17,123 - #43 {
+INFO  14:18:17,123 - #15 void
+INFO  14:18:17,124 - #56 main
+INFO  14:18:17,124 - #39 (
+INFO  14:18:17,124 - #40 )
+INFO  14:18:17,125 - #56 int
+INFO  14:18:17,125 - #56 bodovi
+INFO  14:18:17,126 - #36 ;
+INFO  14:18:17,126 - #43 {
+INFO  14:18:17,126 - #56 bodovi
+INFO  14:18:17,126 - #33 =
+INFO  14:18:17,127 - #54 0
+INFO  14:18:17,128 - #36 ;
+INFO  14:18:17,128 - #12 print
+INFO  14:18:17,128 - #39 (
+INFO  14:18:17,128 - #56 bodovi
+INFO  14:18:17,128 - #40 )
+INFO  14:18:17,129 - #36 ;
+INFO  14:18:17,129 - #44 }
+INFO  14:18:17,129 - #44 }
+INFO  14:18:17,138 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  EmptyGlobalDecl(
+  ) [EmptyGlobalDecl]
+  MulMethodDeclList(
+    NoneMethodDeclList(
+    ) [NoneMethodDeclList]
+    MethodDecl(
+      MethodStart(
+        MethodTypeVoid(
+         main
+        ) [MethodTypeVoid]
+      ) [MethodStart]
+      EmptyFormPars(
+      ) [EmptyFormPars]
+      MulMethodVarDeclList(
+        EmptyMethodVarDeclList(
+        ) [EmptyMethodVarDeclList]
+        VarDeclNoError(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclList(
+            OneVarDef(
+             bodovi
+            ) [OneVarDef]
+          ) [SingleVarDeclList]
+        ) [VarDeclNoError]
+      ) [MulMethodVarDeclList]
+      MulStatementList(
+        MulStatementList(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          StatementClassic(
+            DesingnatorVal(
+              Designator(
+               bodovi
+                DesignatorClassic(
+                ) [DesignatorClassic]
+              ) [Designator]
+              AssignopClassic(
+              ) [AssignopClassic]
+              ExprClassic(
+                TermClassic(
+                  ConstNumFactor(
+                   0
+                  ) [ConstNumFactor]
+                ) [TermClassic]
+              ) [ExprClassic]
+            ) [DesingnatorVal]
+          ) [StatementClassic]
+        ) [MulStatementList]
+        PrintStatementNoArgs(
+          ExprClassic(
+            TermClassic(
+              MethodFactor(
+                Designator(
+                 bodovi
+                  DesignatorClassic(
+                  ) [DesignatorClassic]
+                ) [Designator]
+                NoneFactorParsOpt(
+                ) [NoneFactorParsOpt]
+              ) [MethodFactor]
+            ) [TermClassic]
+          ) [ExprClassic]
+        ) [PrintStatementNoArgs]
+      ) [MulStatementList]
+    ) [MethodDecl]
+  ) [MulMethodDeclList]
+) [Program]
+INFO  14:18:17,138 - ===================================
+INFO  14:18:17,142 - ===================================
+INFO  14:18:17,142 - Broj gresaka u lex 0
+INFO  14:18:17,142 - Broj gresaka u syn 0
+INFO  14:18:17,142 - Broj gresaka u sem 0
+INFO  14:18:17,142 - ===================================
+INFO  14:18:17,143 - Semanticka analiza uspesno zavresna! :D
+INFO  14:18:17,143 - ===================================

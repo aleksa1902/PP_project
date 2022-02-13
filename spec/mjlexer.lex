@@ -94,7 +94,7 @@ import rs.ac.bg.etf.pp1.test.CompilerError.CompilerErrorType;
 "{" 		{ return new_symbol(sym.LBRACE, yytext()); }
 "}" 		{ return new_symbol(sym.RBRACE, yytext()); }
 "?" 		{ return new_symbol(sym.CONDITIONAL, yytext()); }
-"." 		{ return new_symbol(sym.DOT, yytext()); }
+"<=>" 		{ return new_symbol(sym.MODIFOPERATOR, yytext()); }
 
 
 "+=" 		{ return new_symbol(sym.PLUS_EQUALS, yytext()); }
@@ -116,36 +116,3 @@ import rs.ac.bg.etf.pp1.test.CompilerError.CompilerErrorType;
 
 
 . {lexError.add(new CompilerError(yyline+1, "Leksicka greska u liniji: ", CompilerErrorType.LEXICAL_ERROR)); System.err.println("Leksicka greska ("+yytext()+") u liniji "+(yyline+1)); }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -55,6 +55,7 @@ public class CodeGenerator extends VisitorAdaptor{
 		for(int i = 0; i < gotoFixup.size(); i++) {
 			int fixupAddr = gotoFixup.get(i);
 			int lblAddr = mapLabelFixup.get(labelNames.get(i));
+			System.out.println(lblAddr + " " + fixupAddr);
 			int jmp = lblAddr - fixupAddr + 1;
 			Code.put2(fixupAddr, jmp);
 		}
@@ -67,8 +68,8 @@ public class CodeGenerator extends VisitorAdaptor{
 		labelNames.add(gotoStatement.getLabelStatement());
 	}
 
-	public void visit(GoToStatementList goToStatementList) {
-		mapLabelFixup.put(goToStatementList.getGoToLabel(), Code.pc);
+	public void visit(LabelForGoto labelForGoto) {
+		mapLabelFixup.put(labelForGoto.getGoToLabel(), Code.pc);
 	}
 	
 	// METHOD START

@@ -1,0 +1,1331 @@
+INFO  14:19:37,481 - Compiling source file: D:\eclipse-workspace\propalipokusaj\test\program.mj
+INFO  14:19:37,502 - #2 program
+INFO  14:19:37,502 - #56 test301
+INFO  14:19:37,502 - #7 const
+INFO  14:19:37,503 - #56 int
+INFO  14:19:37,503 - #56 nula
+INFO  14:19:37,503 - #33 =
+INFO  14:19:37,503 - #54 0
+INFO  14:19:37,503 - #36 ;
+INFO  14:19:37,504 - #7 const
+INFO  14:19:37,505 - #56 int
+INFO  14:19:37,505 - #56 jedan
+INFO  14:19:37,505 - #33 =
+INFO  14:19:37,505 - #54 1
+INFO  14:19:37,505 - #36 ;
+INFO  14:19:37,505 - #7 const
+INFO  14:19:37,505 - #56 int
+INFO  14:19:37,505 - #56 pet
+INFO  14:19:37,505 - #33 =
+INFO  14:19:37,505 - #54 5
+INFO  14:19:37,505 - #36 ;
+INFO  14:19:37,505 - #56 int
+INFO  14:19:37,505 - #56 niz
+INFO  14:19:37,513 - #41 [
+INFO  14:19:37,513 - #42 ]
+INFO  14:19:37,513 - #36 ;
+INFO  14:19:37,513 - #56 char
+INFO  14:19:37,513 - #56 nizch
+INFO  14:19:37,513 - #41 [
+INFO  14:19:37,513 - #42 ]
+INFO  14:19:37,513 - #36 ;
+INFO  14:19:37,513 - #43 {
+INFO  14:19:37,513 - #15 void
+INFO  14:19:37,514 - #56 main
+INFO  14:19:37,514 - #39 (
+INFO  14:19:37,515 - #40 )
+INFO  14:19:37,515 - #56 int
+INFO  14:19:37,515 - #56 bodovi
+INFO  14:19:37,515 - #36 ;
+INFO  14:19:37,515 - #43 {
+INFO  14:19:37,515 - #56 bodovi
+INFO  14:19:37,516 - #33 =
+INFO  14:19:37,516 - #54 0
+INFO  14:19:37,517 - #36 ;
+INFO  14:19:37,517 - #56 bodovi
+INFO  14:19:37,517 - #34 ++
+INFO  14:19:37,517 - #36 ;
+INFO  14:19:37,517 - #56 bodovi
+INFO  14:19:37,517 - #33 =
+INFO  14:19:37,517 - #56 bodovi
+INFO  14:19:37,517 - #20 +
+INFO  14:19:37,518 - #56 jedan
+INFO  14:19:37,518 - #36 ;
+INFO  14:19:37,518 - #56 bodovi
+INFO  14:19:37,518 - #33 =
+INFO  14:19:37,518 - #56 bodovi
+INFO  14:19:37,518 - #22 *
+INFO  14:19:37,519 - #56 pet
+INFO  14:19:37,519 - #36 ;
+INFO  14:19:37,519 - #56 bodovi
+INFO  14:19:37,519 - #35 --
+INFO  14:19:37,519 - #36 ;
+INFO  14:19:37,519 - #12 print
+INFO  14:19:37,519 - #39 (
+INFO  14:19:37,520 - #56 bodovi
+INFO  14:19:37,520 - #40 )
+INFO  14:19:37,520 - #36 ;
+INFO  14:19:37,520 - #56 niz
+INFO  14:19:37,520 - #33 =
+INFO  14:19:37,520 - #11 new
+INFO  14:19:37,520 - #56 int
+INFO  14:19:37,520 - #41 [
+INFO  14:19:37,520 - #54 3
+INFO  14:19:37,520 - #42 ]
+INFO  14:19:37,520 - #36 ;
+INFO  14:19:37,520 - #56 niz
+INFO  14:19:37,520 - #41 [
+INFO  14:19:37,520 - #56 nula
+INFO  14:19:37,521 - #42 ]
+INFO  14:19:37,521 - #33 =
+INFO  14:19:37,521 - #56 jedan
+INFO  14:19:37,521 - #36 ;
+INFO  14:19:37,521 - #56 niz
+INFO  14:19:37,521 - #41 [
+INFO  14:19:37,521 - #54 1
+INFO  14:19:37,521 - #42 ]
+INFO  14:19:37,521 - #33 =
+INFO  14:19:37,521 - #54 2
+INFO  14:19:37,521 - #36 ;
+INFO  14:19:37,521 - #56 niz
+INFO  14:19:37,521 - #41 [
+INFO  14:19:37,521 - #56 niz
+INFO  14:19:37,521 - #41 [
+INFO  14:19:37,521 - #56 jedan
+INFO  14:19:37,521 - #42 ]
+INFO  14:19:37,521 - #42 ]
+INFO  14:19:37,522 - #33 =
+INFO  14:19:37,522 - #56 niz
+INFO  14:19:37,522 - #41 [
+INFO  14:19:37,522 - #56 niz
+INFO  14:19:37,522 - #41 [
+INFO  14:19:37,522 - #54 0
+INFO  14:19:37,522 - #42 ]
+INFO  14:19:37,522 - #42 ]
+INFO  14:19:37,522 - #22 *
+INFO  14:19:37,522 - #54 3
+INFO  14:19:37,522 - #36 ;
+INFO  14:19:37,523 - #56 bodovi
+INFO  14:19:37,523 - #33 =
+INFO  14:19:37,523 - #56 niz
+INFO  14:19:37,523 - #41 [
+INFO  14:19:37,523 - #54 2
+INFO  14:19:37,523 - #42 ]
+INFO  14:19:37,523 - #23 /
+INFO  14:19:37,523 - #56 niz
+INFO  14:19:37,523 - #41 [
+INFO  14:19:37,523 - #54 0
+INFO  14:19:37,524 - #42 ]
+INFO  14:19:37,524 - #36 ;
+INFO  14:19:37,524 - #12 print
+INFO  14:19:37,524 - #39 (
+INFO  14:19:37,524 - #56 bodovi
+INFO  14:19:37,524 - #40 )
+INFO  14:19:37,524 - #36 ;
+INFO  14:19:37,524 - #12 print
+INFO  14:19:37,524 - #39 (
+INFO  14:19:37,524 - #56 niz
+INFO  14:19:37,524 - #41 [
+INFO  14:19:37,524 - #54 2
+INFO  14:19:37,525 - #42 ]
+INFO  14:19:37,525 - #40 )
+INFO  14:19:37,525 - #36 ;
+INFO  14:19:37,525 - #56 nizch
+INFO  14:19:37,525 - #33 =
+INFO  14:19:37,525 - #11 new
+INFO  14:19:37,525 - #56 char
+INFO  14:19:37,525 - #41 [
+INFO  14:19:37,525 - #54 3
+INFO  14:19:37,525 - #42 ]
+INFO  14:19:37,525 - #36 ;
+INFO  14:19:37,525 - #56 nizch
+INFO  14:19:37,525 - #41 [
+INFO  14:19:37,525 - #54 0
+INFO  14:19:37,525 - #42 ]
+INFO  14:19:37,525 - #33 =
+INFO  14:19:37,526 - #55 a
+INFO  14:19:37,526 - #36 ;
+INFO  14:19:37,526 - #56 nizch
+INFO  14:19:37,526 - #41 [
+INFO  14:19:37,526 - #56 jedan
+INFO  14:19:37,526 - #42 ]
+INFO  14:19:37,526 - #33 =
+INFO  14:19:37,526 - #55 b
+INFO  14:19:37,526 - #36 ;
+INFO  14:19:37,526 - #56 nizch
+INFO  14:19:37,526 - #41 [
+INFO  14:19:37,526 - #56 pet
+INFO  14:19:37,526 - #21 -
+INFO  14:19:37,526 - #54 3
+INFO  14:19:37,526 - #42 ]
+INFO  14:19:37,526 - #33 =
+INFO  14:19:37,526 - #55 c
+INFO  14:19:37,526 - #36 ;
+INFO  14:19:37,526 - #12 print
+INFO  14:19:37,527 - #39 (
+INFO  14:19:37,527 - #56 nizch
+INFO  14:19:37,527 - #41 [
+INFO  14:19:37,527 - #54 1
+INFO  14:19:37,527 - #42 ]
+INFO  14:19:37,527 - #40 )
+INFO  14:19:37,527 - #36 ;
+INFO  14:19:37,527 - #12 print
+INFO  14:19:37,527 - #39 (
+INFO  14:19:37,527 - #56 nizch
+INFO  14:19:37,527 - #41 [
+INFO  14:19:37,527 - #56 jedan
+INFO  14:19:37,527 - #22 *
+INFO  14:19:37,527 - #54 2
+INFO  14:19:37,527 - #42 ]
+INFO  14:19:37,527 - #40 )
+INFO  14:19:37,527 - #36 ;
+INFO  14:19:37,527 - #56 bodovi
+INFO  14:19:37,527 - #33 =
+INFO  14:19:37,527 - #56 bodovi
+INFO  14:19:37,527 - #20 +
+INFO  14:19:37,527 - #39 (
+INFO  14:19:37,527 - #56 pet
+INFO  14:19:37,527 - #22 *
+INFO  14:19:37,527 - #56 jedan
+INFO  14:19:37,527 - #21 -
+INFO  14:19:37,527 - #54 1
+INFO  14:19:37,527 - #40 )
+INFO  14:19:37,528 - #22 *
+INFO  14:19:37,528 - #56 bodovi
+INFO  14:19:37,528 - #21 -
+INFO  14:19:37,528 - #39 (
+INFO  14:19:37,528 - #54 3
+INFO  14:19:37,528 - #24 %
+INFO  14:19:37,528 - #54 2
+INFO  14:19:37,528 - #20 +
+INFO  14:19:37,528 - #54 3
+INFO  14:19:37,528 - #22 *
+INFO  14:19:37,528 - #54 2
+INFO  14:19:37,528 - #21 -
+INFO  14:19:37,528 - #54 3
+INFO  14:19:37,528 - #40 )
+INFO  14:19:37,528 - #36 ;
+INFO  14:19:37,529 - #12 print
+INFO  14:19:37,529 - #39 (
+INFO  14:19:37,529 - #56 bodovi
+INFO  14:19:37,529 - #40 )
+INFO  14:19:37,529 - #36 ;
+INFO  14:19:37,529 - #13 read
+INFO  14:19:37,529 - #39 (
+INFO  14:19:37,529 - #56 bodovi
+INFO  14:19:37,529 - #40 )
+INFO  14:19:37,529 - #36 ;
+INFO  14:19:37,529 - #12 print
+INFO  14:19:37,529 - #39 (
+INFO  14:19:37,529 - #56 bodovi
+INFO  14:19:37,529 - #40 )
+INFO  14:19:37,529 - #36 ;
+INFO  14:19:37,529 - #56 bodovi
+INFO  14:19:37,529 - #34 ++
+INFO  14:19:37,529 - #36 ;
+INFO  14:19:37,529 - #19 goto
+INFO  14:19:37,529 - #56 labela1
+INFO  14:19:37,529 - #36 ;
+INFO  14:19:37,529 - #56 bodovi
+INFO  14:19:37,529 - #33 =
+INFO  14:19:37,529 - #56 bodovi
+INFO  14:19:37,529 - #22 *
+INFO  14:19:37,529 - #54 2
+INFO  14:19:37,529 - #36 ;
+INFO  14:19:37,529 - #56 bodovi
+INFO  14:19:37,529 - #35 --
+INFO  14:19:37,529 - #36 ;
+INFO  14:19:37,529 - #56 labela1
+INFO  14:19:37,529 - #37 :
+INFO  14:19:37,529 - #56 bodovi
+INFO  14:19:37,529 - #33 =
+INFO  14:19:37,529 - #56 bodovi
+INFO  14:19:37,529 - #20 +
+INFO  14:19:37,529 - #54 3
+INFO  14:19:37,529 - #36 ;
+INFO  14:19:37,529 - #12 print
+INFO  14:19:37,530 - #39 (
+INFO  14:19:37,530 - #56 bodovi
+INFO  14:19:37,530 - #40 )
+INFO  14:19:37,530 - #36 ;
+INFO  14:19:37,530 - #19 goto
+INFO  14:19:37,530 - #56 labelaminus
+INFO  14:19:37,530 - #36 ;
+INFO  14:19:37,530 - #12 print
+INFO  14:19:37,530 - #39 (
+INFO  14:19:37,530 - #55 +
+INFO  14:19:37,530 - #40 )
+INFO  14:19:37,530 - #36 ;
+INFO  14:19:37,530 - #56 labelaminus
+INFO  14:19:37,530 - #37 :
+INFO  14:19:37,530 - #12 print
+INFO  14:19:37,530 - #39 (
+INFO  14:19:37,530 - #55 -
+INFO  14:19:37,530 - #40 )
+INFO  14:19:37,530 - #36 ;
+INFO  14:19:37,530 - #44 }
+INFO  14:19:37,530 - #44 }
+INFO  14:19:37,535 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  MulGlobalDeclList(
+    MulGlobalDeclList(
+      MulGlobalDeclList(
+        MulGlobalDeclList(
+          MulGlobalDeclList(
+            EmptyGlobalDecl(
+            ) [EmptyGlobalDecl]
+            GlobalConstDecl(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                SingleConstDeclList(
+                  ConstDef(
+                   nula
+                    NumConstVal(
+                     0
+                    ) [NumConstVal]
+                  ) [ConstDef]
+                ) [SingleConstDeclList]
+              ) [ConstDecl]
+            ) [GlobalConstDecl]
+          ) [MulGlobalDeclList]
+          GlobalConstDecl(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              SingleConstDeclList(
+                ConstDef(
+                 jedan
+                  NumConstVal(
+                   1
+                  ) [NumConstVal]
+                ) [ConstDef]
+              ) [SingleConstDeclList]
+            ) [ConstDecl]
+          ) [GlobalConstDecl]
+        ) [MulGlobalDeclList]
+        GlobalConstDecl(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            SingleConstDeclList(
+              ConstDef(
+               pet
+                NumConstVal(
+                 5
+                ) [NumConstVal]
+              ) [ConstDef]
+            ) [SingleConstDeclList]
+          ) [ConstDecl]
+        ) [GlobalConstDecl]
+      ) [MulGlobalDeclList]
+      GlobalVarDecl(
+        VarDeclNoError(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclList(
+            ArrayVarDef(
+             niz
+            ) [ArrayVarDef]
+          ) [SingleVarDeclList]
+        ) [VarDeclNoError]
+      ) [GlobalVarDecl]
+    ) [MulGlobalDeclList]
+    GlobalVarDecl(
+      VarDeclNoError(
+        Type(
+         char
+        ) [Type]
+        SingleVarDeclList(
+          ArrayVarDef(
+           nizch
+          ) [ArrayVarDef]
+        ) [SingleVarDeclList]
+      ) [VarDeclNoError]
+    ) [GlobalVarDecl]
+  ) [MulGlobalDeclList]
+  MulMethodDeclList(
+    NoneMethodDeclList(
+    ) [NoneMethodDeclList]
+    MethodDecl(
+      MethodStart(
+        MethodTypeVoid(
+         main
+        ) [MethodTypeVoid]
+      ) [MethodStart]
+      EmptyFormPars(
+      ) [EmptyFormPars]
+      MulMethodVarDeclList(
+        EmptyMethodVarDeclList(
+        ) [EmptyMethodVarDeclList]
+        VarDeclNoError(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclList(
+            OneVarDef(
+             bodovi
+            ) [OneVarDef]
+          ) [SingleVarDeclList]
+        ) [VarDeclNoError]
+      ) [MulMethodVarDeclList]
+      GoToStatementList(
+        MulStatementList(
+          MulStatementList(
+            MulStatementList(
+              GoToStatementList(
+                MulStatementList(
+                  MulStatementList(
+                    MulStatementList(
+                      MulStatementList(
+                        MulStatementList(
+                          MulStatementList(
+                            MulStatementList(
+                              MulStatementList(
+                                MulStatementList(
+                                  MulStatementList(
+                                    MulStatementList(
+                                      MulStatementList(
+                                        MulStatementList(
+                                          MulStatementList(
+                                            MulStatementList(
+                                              MulStatementList(
+                                                MulStatementList(
+                                                  MulStatementList(
+                                                    MulStatementList(
+                                                      MulStatementList(
+                                                        MulStatementList(
+                                                          MulStatementList(
+                                                            MulStatementList(
+                                                              MulStatementList(
+                                                                MulStatementList(
+                                                                  MulStatementList(
+                                                                    MulStatementList(
+                                                                      EmptyStatementList(
+                                                                      ) [EmptyStatementList]
+                                                                      StatementClassic(
+                                                                        DesingnatorVal(
+                                                                          Designator(
+                                                                           bodovi
+                                                                            DesignatorClassic(
+                                                                            ) [DesignatorClassic]
+                                                                          ) [Designator]
+                                                                          AssignopClassic(
+                                                                          ) [AssignopClassic]
+                                                                          ExprClassic(
+                                                                            TermClassic(
+                                                                              ConstNumFactor(
+                                                                               0
+                                                                              ) [ConstNumFactor]
+                                                                            ) [TermClassic]
+                                                                          ) [ExprClassic]
+                                                                        ) [DesingnatorVal]
+                                                                      ) [StatementClassic]
+                                                                    ) [MulStatementList]
+                                                                    StatementClassic(
+                                                                      DesignatorIncrement(
+                                                                        Designator(
+                                                                         bodovi
+                                                                          DesignatorClassic(
+                                                                          ) [DesignatorClassic]
+                                                                        ) [Designator]
+                                                                      ) [DesignatorIncrement]
+                                                                    ) [StatementClassic]
+                                                                  ) [MulStatementList]
+                                                                  StatementClassic(
+                                                                    DesingnatorVal(
+                                                                      Designator(
+                                                                       bodovi
+                                                                        DesignatorClassic(
+                                                                        ) [DesignatorClassic]
+                                                                      ) [Designator]
+                                                                      AssignopClassic(
+                                                                      ) [AssignopClassic]
+                                                                      MulExprTerm(
+                                                                        ExprClassic(
+                                                                          TermClassic(
+                                                                            MethodFactor(
+                                                                              Designator(
+                                                                               bodovi
+                                                                                DesignatorClassic(
+                                                                                ) [DesignatorClassic]
+                                                                              ) [Designator]
+                                                                              NoneFactorParsOpt(
+                                                                              ) [NoneFactorParsOpt]
+                                                                            ) [MethodFactor]
+                                                                          ) [TermClassic]
+                                                                        ) [ExprClassic]
+                                                                        AddopAdd(
+                                                                        ) [AddopAdd]
+                                                                        TermClassic(
+                                                                          MethodFactor(
+                                                                            Designator(
+                                                                             jedan
+                                                                              DesignatorClassic(
+                                                                              ) [DesignatorClassic]
+                                                                            ) [Designator]
+                                                                            NoneFactorParsOpt(
+                                                                            ) [NoneFactorParsOpt]
+                                                                          ) [MethodFactor]
+                                                                        ) [TermClassic]
+                                                                      ) [MulExprTerm]
+                                                                    ) [DesingnatorVal]
+                                                                  ) [StatementClassic]
+                                                                ) [MulStatementList]
+                                                                StatementClassic(
+                                                                  DesingnatorVal(
+                                                                    Designator(
+                                                                     bodovi
+                                                                      DesignatorClassic(
+                                                                      ) [DesignatorClassic]
+                                                                    ) [Designator]
+                                                                    AssignopClassic(
+                                                                    ) [AssignopClassic]
+                                                                    ExprClassic(
+                                                                      MulTerm(
+                                                                        TermClassic(
+                                                                          MethodFactor(
+                                                                            Designator(
+                                                                             bodovi
+                                                                              DesignatorClassic(
+                                                                              ) [DesignatorClassic]
+                                                                            ) [Designator]
+                                                                            NoneFactorParsOpt(
+                                                                            ) [NoneFactorParsOpt]
+                                                                          ) [MethodFactor]
+                                                                        ) [TermClassic]
+                                                                        MulopMul(
+                                                                        ) [MulopMul]
+                                                                        MethodFactor(
+                                                                          Designator(
+                                                                           pet
+                                                                            DesignatorClassic(
+                                                                            ) [DesignatorClassic]
+                                                                          ) [Designator]
+                                                                          NoneFactorParsOpt(
+                                                                          ) [NoneFactorParsOpt]
+                                                                        ) [MethodFactor]
+                                                                      ) [MulTerm]
+                                                                    ) [ExprClassic]
+                                                                  ) [DesingnatorVal]
+                                                                ) [StatementClassic]
+                                                              ) [MulStatementList]
+                                                              StatementClassic(
+                                                                DesignatorDecrement(
+                                                                  Designator(
+                                                                   bodovi
+                                                                    DesignatorClassic(
+                                                                    ) [DesignatorClassic]
+                                                                  ) [Designator]
+                                                                ) [DesignatorDecrement]
+                                                              ) [StatementClassic]
+                                                            ) [MulStatementList]
+                                                            PrintStatementNoArgs(
+                                                              ExprClassic(
+                                                                TermClassic(
+                                                                  MethodFactor(
+                                                                    Designator(
+                                                                     bodovi
+                                                                      DesignatorClassic(
+                                                                      ) [DesignatorClassic]
+                                                                    ) [Designator]
+                                                                    NoneFactorParsOpt(
+                                                                    ) [NoneFactorParsOpt]
+                                                                  ) [MethodFactor]
+                                                                ) [TermClassic]
+                                                              ) [ExprClassic]
+                                                            ) [PrintStatementNoArgs]
+                                                          ) [MulStatementList]
+                                                          StatementClassic(
+                                                            DesingnatorVal(
+                                                              Designator(
+                                                               niz
+                                                                DesignatorClassic(
+                                                                ) [DesignatorClassic]
+                                                              ) [Designator]
+                                                              AssignopClassic(
+                                                              ) [AssignopClassic]
+                                                              ExprClassic(
+                                                                TermClassic(
+                                                                  NewFactorArray(
+                                                                    Type(
+                                                                     int
+                                                                    ) [Type]
+                                                                    ExprClassic(
+                                                                      TermClassic(
+                                                                        ConstNumFactor(
+                                                                         3
+                                                                        ) [ConstNumFactor]
+                                                                      ) [TermClassic]
+                                                                    ) [ExprClassic]
+                                                                  ) [NewFactorArray]
+                                                                ) [TermClassic]
+                                                              ) [ExprClassic]
+                                                            ) [DesingnatorVal]
+                                                          ) [StatementClassic]
+                                                        ) [MulStatementList]
+                                                        StatementClassic(
+                                                          DesingnatorVal(
+                                                            Designator(
+                                                             niz
+                                                              DesignatorWithArray(
+                                                                LBraceDesignatorArray(
+                                                                ) [LBraceDesignatorArray]
+                                                                ExprClassic(
+                                                                  TermClassic(
+                                                                    MethodFactor(
+                                                                      Designator(
+                                                                       nula
+                                                                        DesignatorClassic(
+                                                                        ) [DesignatorClassic]
+                                                                      ) [Designator]
+                                                                      NoneFactorParsOpt(
+                                                                      ) [NoneFactorParsOpt]
+                                                                    ) [MethodFactor]
+                                                                  ) [TermClassic]
+                                                                ) [ExprClassic]
+                                                              ) [DesignatorWithArray]
+                                                            ) [Designator]
+                                                            AssignopClassic(
+                                                            ) [AssignopClassic]
+                                                            ExprClassic(
+                                                              TermClassic(
+                                                                MethodFactor(
+                                                                  Designator(
+                                                                   jedan
+                                                                    DesignatorClassic(
+                                                                    ) [DesignatorClassic]
+                                                                  ) [Designator]
+                                                                  NoneFactorParsOpt(
+                                                                  ) [NoneFactorParsOpt]
+                                                                ) [MethodFactor]
+                                                              ) [TermClassic]
+                                                            ) [ExprClassic]
+                                                          ) [DesingnatorVal]
+                                                        ) [StatementClassic]
+                                                      ) [MulStatementList]
+                                                      StatementClassic(
+                                                        DesingnatorVal(
+                                                          Designator(
+                                                           niz
+                                                            DesignatorWithArray(
+                                                              LBraceDesignatorArray(
+                                                              ) [LBraceDesignatorArray]
+                                                              ExprClassic(
+                                                                TermClassic(
+                                                                  ConstNumFactor(
+                                                                   1
+                                                                  ) [ConstNumFactor]
+                                                                ) [TermClassic]
+                                                              ) [ExprClassic]
+                                                            ) [DesignatorWithArray]
+                                                          ) [Designator]
+                                                          AssignopClassic(
+                                                          ) [AssignopClassic]
+                                                          ExprClassic(
+                                                            TermClassic(
+                                                              ConstNumFactor(
+                                                               2
+                                                              ) [ConstNumFactor]
+                                                            ) [TermClassic]
+                                                          ) [ExprClassic]
+                                                        ) [DesingnatorVal]
+                                                      ) [StatementClassic]
+                                                    ) [MulStatementList]
+                                                    StatementClassic(
+                                                      DesingnatorVal(
+                                                        Designator(
+                                                         niz
+                                                          DesignatorWithArray(
+                                                            LBraceDesignatorArray(
+                                                            ) [LBraceDesignatorArray]
+                                                            ExprClassic(
+                                                              TermClassic(
+                                                                MethodFactor(
+                                                                  Designator(
+                                                                   niz
+                                                                    DesignatorWithArray(
+                                                                      LBraceDesignatorArray(
+                                                                      ) [LBraceDesignatorArray]
+                                                                      ExprClassic(
+                                                                        TermClassic(
+                                                                          MethodFactor(
+                                                                            Designator(
+                                                                             jedan
+                                                                              DesignatorClassic(
+                                                                              ) [DesignatorClassic]
+                                                                            ) [Designator]
+                                                                            NoneFactorParsOpt(
+                                                                            ) [NoneFactorParsOpt]
+                                                                          ) [MethodFactor]
+                                                                        ) [TermClassic]
+                                                                      ) [ExprClassic]
+                                                                    ) [DesignatorWithArray]
+                                                                  ) [Designator]
+                                                                  NoneFactorParsOpt(
+                                                                  ) [NoneFactorParsOpt]
+                                                                ) [MethodFactor]
+                                                              ) [TermClassic]
+                                                            ) [ExprClassic]
+                                                          ) [DesignatorWithArray]
+                                                        ) [Designator]
+                                                        AssignopClassic(
+                                                        ) [AssignopClassic]
+                                                        ExprClassic(
+                                                          MulTerm(
+                                                            TermClassic(
+                                                              MethodFactor(
+                                                                Designator(
+                                                                 niz
+                                                                  DesignatorWithArray(
+                                                                    LBraceDesignatorArray(
+                                                                    ) [LBraceDesignatorArray]
+                                                                    ExprClassic(
+                                                                      TermClassic(
+                                                                        MethodFactor(
+                                                                          Designator(
+                                                                           niz
+                                                                            DesignatorWithArray(
+                                                                              LBraceDesignatorArray(
+                                                                              ) [LBraceDesignatorArray]
+                                                                              ExprClassic(
+                                                                                TermClassic(
+                                                                                  ConstNumFactor(
+                                                                                   0
+                                                                                  ) [ConstNumFactor]
+                                                                                ) [TermClassic]
+                                                                              ) [ExprClassic]
+                                                                            ) [DesignatorWithArray]
+                                                                          ) [Designator]
+                                                                          NoneFactorParsOpt(
+                                                                          ) [NoneFactorParsOpt]
+                                                                        ) [MethodFactor]
+                                                                      ) [TermClassic]
+                                                                    ) [ExprClassic]
+                                                                  ) [DesignatorWithArray]
+                                                                ) [Designator]
+                                                                NoneFactorParsOpt(
+                                                                ) [NoneFactorParsOpt]
+                                                              ) [MethodFactor]
+                                                            ) [TermClassic]
+                                                            MulopMul(
+                                                            ) [MulopMul]
+                                                            ConstNumFactor(
+                                                             3
+                                                            ) [ConstNumFactor]
+                                                          ) [MulTerm]
+                                                        ) [ExprClassic]
+                                                      ) [DesingnatorVal]
+                                                    ) [StatementClassic]
+                                                  ) [MulStatementList]
+                                                  StatementClassic(
+                                                    DesingnatorVal(
+                                                      Designator(
+                                                       bodovi
+                                                        DesignatorClassic(
+                                                        ) [DesignatorClassic]
+                                                      ) [Designator]
+                                                      AssignopClassic(
+                                                      ) [AssignopClassic]
+                                                      ExprClassic(
+                                                        MulTerm(
+                                                          TermClassic(
+                                                            MethodFactor(
+                                                              Designator(
+                                                               niz
+                                                                DesignatorWithArray(
+                                                                  LBraceDesignatorArray(
+                                                                  ) [LBraceDesignatorArray]
+                                                                  ExprClassic(
+                                                                    TermClassic(
+                                                                      ConstNumFactor(
+                                                                       2
+                                                                      ) [ConstNumFactor]
+                                                                    ) [TermClassic]
+                                                                  ) [ExprClassic]
+                                                                ) [DesignatorWithArray]
+                                                              ) [Designator]
+                                                              NoneFactorParsOpt(
+                                                              ) [NoneFactorParsOpt]
+                                                            ) [MethodFactor]
+                                                          ) [TermClassic]
+                                                          MulopDiv(
+                                                          ) [MulopDiv]
+                                                          MethodFactor(
+                                                            Designator(
+                                                             niz
+                                                              DesignatorWithArray(
+                                                                LBraceDesignatorArray(
+                                                                ) [LBraceDesignatorArray]
+                                                                ExprClassic(
+                                                                  TermClassic(
+                                                                    ConstNumFactor(
+                                                                     0
+                                                                    ) [ConstNumFactor]
+                                                                  ) [TermClassic]
+                                                                ) [ExprClassic]
+                                                              ) [DesignatorWithArray]
+                                                            ) [Designator]
+                                                            NoneFactorParsOpt(
+                                                            ) [NoneFactorParsOpt]
+                                                          ) [MethodFactor]
+                                                        ) [MulTerm]
+                                                      ) [ExprClassic]
+                                                    ) [DesingnatorVal]
+                                                  ) [StatementClassic]
+                                                ) [MulStatementList]
+                                                PrintStatementNoArgs(
+                                                  ExprClassic(
+                                                    TermClassic(
+                                                      MethodFactor(
+                                                        Designator(
+                                                         bodovi
+                                                          DesignatorClassic(
+                                                          ) [DesignatorClassic]
+                                                        ) [Designator]
+                                                        NoneFactorParsOpt(
+                                                        ) [NoneFactorParsOpt]
+                                                      ) [MethodFactor]
+                                                    ) [TermClassic]
+                                                  ) [ExprClassic]
+                                                ) [PrintStatementNoArgs]
+                                              ) [MulStatementList]
+                                              PrintStatementNoArgs(
+                                                ExprClassic(
+                                                  TermClassic(
+                                                    MethodFactor(
+                                                      Designator(
+                                                       niz
+                                                        DesignatorWithArray(
+                                                          LBraceDesignatorArray(
+                                                          ) [LBraceDesignatorArray]
+                                                          ExprClassic(
+                                                            TermClassic(
+                                                              ConstNumFactor(
+                                                               2
+                                                              ) [ConstNumFactor]
+                                                            ) [TermClassic]
+                                                          ) [ExprClassic]
+                                                        ) [DesignatorWithArray]
+                                                      ) [Designator]
+                                                      NoneFactorParsOpt(
+                                                      ) [NoneFactorParsOpt]
+                                                    ) [MethodFactor]
+                                                  ) [TermClassic]
+                                                ) [ExprClassic]
+                                              ) [PrintStatementNoArgs]
+                                            ) [MulStatementList]
+                                            StatementClassic(
+                                              DesingnatorVal(
+                                                Designator(
+                                                 nizch
+                                                  DesignatorClassic(
+                                                  ) [DesignatorClassic]
+                                                ) [Designator]
+                                                AssignopClassic(
+                                                ) [AssignopClassic]
+                                                ExprClassic(
+                                                  TermClassic(
+                                                    NewFactorArray(
+                                                      Type(
+                                                       char
+                                                      ) [Type]
+                                                      ExprClassic(
+                                                        TermClassic(
+                                                          ConstNumFactor(
+                                                           3
+                                                          ) [ConstNumFactor]
+                                                        ) [TermClassic]
+                                                      ) [ExprClassic]
+                                                    ) [NewFactorArray]
+                                                  ) [TermClassic]
+                                                ) [ExprClassic]
+                                              ) [DesingnatorVal]
+                                            ) [StatementClassic]
+                                          ) [MulStatementList]
+                                          StatementClassic(
+                                            DesingnatorVal(
+                                              Designator(
+                                               nizch
+                                                DesignatorWithArray(
+                                                  LBraceDesignatorArray(
+                                                  ) [LBraceDesignatorArray]
+                                                  ExprClassic(
+                                                    TermClassic(
+                                                      ConstNumFactor(
+                                                       0
+                                                      ) [ConstNumFactor]
+                                                    ) [TermClassic]
+                                                  ) [ExprClassic]
+                                                ) [DesignatorWithArray]
+                                              ) [Designator]
+                                              AssignopClassic(
+                                              ) [AssignopClassic]
+                                              ExprClassic(
+                                                TermClassic(
+                                                  ConstCharFactor(
+                                                   a
+                                                  ) [ConstCharFactor]
+                                                ) [TermClassic]
+                                              ) [ExprClassic]
+                                            ) [DesingnatorVal]
+                                          ) [StatementClassic]
+                                        ) [MulStatementList]
+                                        StatementClassic(
+                                          DesingnatorVal(
+                                            Designator(
+                                             nizch
+                                              DesignatorWithArray(
+                                                LBraceDesignatorArray(
+                                                ) [LBraceDesignatorArray]
+                                                ExprClassic(
+                                                  TermClassic(
+                                                    MethodFactor(
+                                                      Designator(
+                                                       jedan
+                                                        DesignatorClassic(
+                                                        ) [DesignatorClassic]
+                                                      ) [Designator]
+                                                      NoneFactorParsOpt(
+                                                      ) [NoneFactorParsOpt]
+                                                    ) [MethodFactor]
+                                                  ) [TermClassic]
+                                                ) [ExprClassic]
+                                              ) [DesignatorWithArray]
+                                            ) [Designator]
+                                            AssignopClassic(
+                                            ) [AssignopClassic]
+                                            ExprClassic(
+                                              TermClassic(
+                                                ConstCharFactor(
+                                                 b
+                                                ) [ConstCharFactor]
+                                              ) [TermClassic]
+                                            ) [ExprClassic]
+                                          ) [DesingnatorVal]
+                                        ) [StatementClassic]
+                                      ) [MulStatementList]
+                                      StatementClassic(
+                                        DesingnatorVal(
+                                          Designator(
+                                           nizch
+                                            DesignatorWithArray(
+                                              LBraceDesignatorArray(
+                                              ) [LBraceDesignatorArray]
+                                              MulExprTerm(
+                                                ExprClassic(
+                                                  TermClassic(
+                                                    MethodFactor(
+                                                      Designator(
+                                                       pet
+                                                        DesignatorClassic(
+                                                        ) [DesignatorClassic]
+                                                      ) [Designator]
+                                                      NoneFactorParsOpt(
+                                                      ) [NoneFactorParsOpt]
+                                                    ) [MethodFactor]
+                                                  ) [TermClassic]
+                                                ) [ExprClassic]
+                                                AddopSub(
+                                                ) [AddopSub]
+                                                TermClassic(
+                                                  ConstNumFactor(
+                                                   3
+                                                  ) [ConstNumFactor]
+                                                ) [TermClassic]
+                                              ) [MulExprTerm]
+                                            ) [DesignatorWithArray]
+                                          ) [Designator]
+                                          AssignopClassic(
+                                          ) [AssignopClassic]
+                                          ExprClassic(
+                                            TermClassic(
+                                              ConstCharFactor(
+                                               c
+                                              ) [ConstCharFactor]
+                                            ) [TermClassic]
+                                          ) [ExprClassic]
+                                        ) [DesingnatorVal]
+                                      ) [StatementClassic]
+                                    ) [MulStatementList]
+                                    PrintStatementNoArgs(
+                                      ExprClassic(
+                                        TermClassic(
+                                          MethodFactor(
+                                            Designator(
+                                             nizch
+                                              DesignatorWithArray(
+                                                LBraceDesignatorArray(
+                                                ) [LBraceDesignatorArray]
+                                                ExprClassic(
+                                                  TermClassic(
+                                                    ConstNumFactor(
+                                                     1
+                                                    ) [ConstNumFactor]
+                                                  ) [TermClassic]
+                                                ) [ExprClassic]
+                                              ) [DesignatorWithArray]
+                                            ) [Designator]
+                                            NoneFactorParsOpt(
+                                            ) [NoneFactorParsOpt]
+                                          ) [MethodFactor]
+                                        ) [TermClassic]
+                                      ) [ExprClassic]
+                                    ) [PrintStatementNoArgs]
+                                  ) [MulStatementList]
+                                  PrintStatementNoArgs(
+                                    ExprClassic(
+                                      TermClassic(
+                                        MethodFactor(
+                                          Designator(
+                                           nizch
+                                            DesignatorWithArray(
+                                              LBraceDesignatorArray(
+                                              ) [LBraceDesignatorArray]
+                                              ExprClassic(
+                                                MulTerm(
+                                                  TermClassic(
+                                                    MethodFactor(
+                                                      Designator(
+                                                       jedan
+                                                        DesignatorClassic(
+                                                        ) [DesignatorClassic]
+                                                      ) [Designator]
+                                                      NoneFactorParsOpt(
+                                                      ) [NoneFactorParsOpt]
+                                                    ) [MethodFactor]
+                                                  ) [TermClassic]
+                                                  MulopMul(
+                                                  ) [MulopMul]
+                                                  ConstNumFactor(
+                                                   2
+                                                  ) [ConstNumFactor]
+                                                ) [MulTerm]
+                                              ) [ExprClassic]
+                                            ) [DesignatorWithArray]
+                                          ) [Designator]
+                                          NoneFactorParsOpt(
+                                          ) [NoneFactorParsOpt]
+                                        ) [MethodFactor]
+                                      ) [TermClassic]
+                                    ) [ExprClassic]
+                                  ) [PrintStatementNoArgs]
+                                ) [MulStatementList]
+                                StatementClassic(
+                                  DesingnatorVal(
+                                    Designator(
+                                     bodovi
+                                      DesignatorClassic(
+                                      ) [DesignatorClassic]
+                                    ) [Designator]
+                                    AssignopClassic(
+                                    ) [AssignopClassic]
+                                    MulExprTerm(
+                                      MulExprTerm(
+                                        ExprClassic(
+                                          TermClassic(
+                                            MethodFactor(
+                                              Designator(
+                                               bodovi
+                                                DesignatorClassic(
+                                                ) [DesignatorClassic]
+                                              ) [Designator]
+                                              NoneFactorParsOpt(
+                                              ) [NoneFactorParsOpt]
+                                            ) [MethodFactor]
+                                          ) [TermClassic]
+                                        ) [ExprClassic]
+                                        AddopAdd(
+                                        ) [AddopAdd]
+                                        MulTerm(
+                                          TermClassic(
+                                            FactorExpr(
+                                              MulExprTerm(
+                                                ExprClassic(
+                                                  MulTerm(
+                                                    TermClassic(
+                                                      MethodFactor(
+                                                        Designator(
+                                                         pet
+                                                          DesignatorClassic(
+                                                          ) [DesignatorClassic]
+                                                        ) [Designator]
+                                                        NoneFactorParsOpt(
+                                                        ) [NoneFactorParsOpt]
+                                                      ) [MethodFactor]
+                                                    ) [TermClassic]
+                                                    MulopMul(
+                                                    ) [MulopMul]
+                                                    MethodFactor(
+                                                      Designator(
+                                                       jedan
+                                                        DesignatorClassic(
+                                                        ) [DesignatorClassic]
+                                                      ) [Designator]
+                                                      NoneFactorParsOpt(
+                                                      ) [NoneFactorParsOpt]
+                                                    ) [MethodFactor]
+                                                  ) [MulTerm]
+                                                ) [ExprClassic]
+                                                AddopSub(
+                                                ) [AddopSub]
+                                                TermClassic(
+                                                  ConstNumFactor(
+                                                   1
+                                                  ) [ConstNumFactor]
+                                                ) [TermClassic]
+                                              ) [MulExprTerm]
+                                            ) [FactorExpr]
+                                          ) [TermClassic]
+                                          MulopMul(
+                                          ) [MulopMul]
+                                          MethodFactor(
+                                            Designator(
+                                             bodovi
+                                              DesignatorClassic(
+                                              ) [DesignatorClassic]
+                                            ) [Designator]
+                                            NoneFactorParsOpt(
+                                            ) [NoneFactorParsOpt]
+                                          ) [MethodFactor]
+                                        ) [MulTerm]
+                                      ) [MulExprTerm]
+                                      AddopSub(
+                                      ) [AddopSub]
+                                      TermClassic(
+                                        FactorExpr(
+                                          MulExprTerm(
+                                            MulExprTerm(
+                                              ExprClassic(
+                                                MulTerm(
+                                                  TermClassic(
+                                                    ConstNumFactor(
+                                                     3
+                                                    ) [ConstNumFactor]
+                                                  ) [TermClassic]
+                                                  MulopMod(
+                                                  ) [MulopMod]
+                                                  ConstNumFactor(
+                                                   2
+                                                  ) [ConstNumFactor]
+                                                ) [MulTerm]
+                                              ) [ExprClassic]
+                                              AddopAdd(
+                                              ) [AddopAdd]
+                                              MulTerm(
+                                                TermClassic(
+                                                  ConstNumFactor(
+                                                   3
+                                                  ) [ConstNumFactor]
+                                                ) [TermClassic]
+                                                MulopMul(
+                                                ) [MulopMul]
+                                                ConstNumFactor(
+                                                 2
+                                                ) [ConstNumFactor]
+                                              ) [MulTerm]
+                                            ) [MulExprTerm]
+                                            AddopSub(
+                                            ) [AddopSub]
+                                            TermClassic(
+                                              ConstNumFactor(
+                                               3
+                                              ) [ConstNumFactor]
+                                            ) [TermClassic]
+                                          ) [MulExprTerm]
+                                        ) [FactorExpr]
+                                      ) [TermClassic]
+                                    ) [MulExprTerm]
+                                  ) [DesingnatorVal]
+                                ) [StatementClassic]
+                              ) [MulStatementList]
+                              PrintStatementNoArgs(
+                                ExprClassic(
+                                  TermClassic(
+                                    MethodFactor(
+                                      Designator(
+                                       bodovi
+                                        DesignatorClassic(
+                                        ) [DesignatorClassic]
+                                      ) [Designator]
+                                      NoneFactorParsOpt(
+                                      ) [NoneFactorParsOpt]
+                                    ) [MethodFactor]
+                                  ) [TermClassic]
+                                ) [ExprClassic]
+                              ) [PrintStatementNoArgs]
+                            ) [MulStatementList]
+                            ReadStatement(
+                              Designator(
+                               bodovi
+                                DesignatorClassic(
+                                ) [DesignatorClassic]
+                              ) [Designator]
+                            ) [ReadStatement]
+                          ) [MulStatementList]
+                          PrintStatementNoArgs(
+                            ExprClassic(
+                              TermClassic(
+                                MethodFactor(
+                                  Designator(
+                                   bodovi
+                                    DesignatorClassic(
+                                    ) [DesignatorClassic]
+                                  ) [Designator]
+                                  NoneFactorParsOpt(
+                                  ) [NoneFactorParsOpt]
+                                ) [MethodFactor]
+                              ) [TermClassic]
+                            ) [ExprClassic]
+                          ) [PrintStatementNoArgs]
+                        ) [MulStatementList]
+                        StatementClassic(
+                          DesignatorIncrement(
+                            Designator(
+                             bodovi
+                              DesignatorClassic(
+                              ) [DesignatorClassic]
+                            ) [Designator]
+                          ) [DesignatorIncrement]
+                        ) [StatementClassic]
+                      ) [MulStatementList]
+                      GotoStatement(
+                       labela1
+                      ) [GotoStatement]
+                    ) [MulStatementList]
+                    StatementClassic(
+                      DesingnatorVal(
+                        Designator(
+                         bodovi
+                          DesignatorClassic(
+                          ) [DesignatorClassic]
+                        ) [Designator]
+                        AssignopClassic(
+                        ) [AssignopClassic]
+                        ExprClassic(
+                          MulTerm(
+                            TermClassic(
+                              MethodFactor(
+                                Designator(
+                                 bodovi
+                                  DesignatorClassic(
+                                  ) [DesignatorClassic]
+                                ) [Designator]
+                                NoneFactorParsOpt(
+                                ) [NoneFactorParsOpt]
+                              ) [MethodFactor]
+                            ) [TermClassic]
+                            MulopMul(
+                            ) [MulopMul]
+                            ConstNumFactor(
+                             2
+                            ) [ConstNumFactor]
+                          ) [MulTerm]
+                        ) [ExprClassic]
+                      ) [DesingnatorVal]
+                    ) [StatementClassic]
+                  ) [MulStatementList]
+                  StatementClassic(
+                    DesignatorDecrement(
+                      Designator(
+                       bodovi
+                        DesignatorClassic(
+                        ) [DesignatorClassic]
+                      ) [Designator]
+                    ) [DesignatorDecrement]
+                  ) [StatementClassic]
+                ) [MulStatementList]
+               labela1
+                StatementClassic(
+                  DesingnatorVal(
+                    Designator(
+                     bodovi
+                      DesignatorClassic(
+                      ) [DesignatorClassic]
+                    ) [Designator]
+                    AssignopClassic(
+                    ) [AssignopClassic]
+                    MulExprTerm(
+                      ExprClassic(
+                        TermClassic(
+                          MethodFactor(
+                            Designator(
+                             bodovi
+                              DesignatorClassic(
+                              ) [DesignatorClassic]
+                            ) [Designator]
+                            NoneFactorParsOpt(
+                            ) [NoneFactorParsOpt]
+                          ) [MethodFactor]
+                        ) [TermClassic]
+                      ) [ExprClassic]
+                      AddopAdd(
+                      ) [AddopAdd]
+                      TermClassic(
+                        ConstNumFactor(
+                         3
+                        ) [ConstNumFactor]
+                      ) [TermClassic]
+                    ) [MulExprTerm]
+                  ) [DesingnatorVal]
+                ) [StatementClassic]
+              ) [GoToStatementList]
+              PrintStatementNoArgs(
+                ExprClassic(
+                  TermClassic(
+                    MethodFactor(
+                      Designator(
+                       bodovi
+                        DesignatorClassic(
+                        ) [DesignatorClassic]
+                      ) [Designator]
+                      NoneFactorParsOpt(
+                      ) [NoneFactorParsOpt]
+                    ) [MethodFactor]
+                  ) [TermClassic]
+                ) [ExprClassic]
+              ) [PrintStatementNoArgs]
+            ) [MulStatementList]
+            GotoStatement(
+             labelaminus
+            ) [GotoStatement]
+          ) [MulStatementList]
+          PrintStatementNoArgs(
+            ExprClassic(
+              TermClassic(
+                ConstCharFactor(
+                 +
+                ) [ConstCharFactor]
+              ) [TermClassic]
+            ) [ExprClassic]
+          ) [PrintStatementNoArgs]
+        ) [MulStatementList]
+       labelaminus
+        PrintStatementNoArgs(
+          ExprClassic(
+            TermClassic(
+              ConstCharFactor(
+               -
+              ) [ConstCharFactor]
+            ) [TermClassic]
+          ) [ExprClassic]
+        ) [PrintStatementNoArgs]
+      ) [GoToStatementList]
+    ) [MethodDecl]
+  ) [MulMethodDeclList]
+) [Program]
+INFO  14:19:37,536 - ===================================
+INFO  14:19:37,541 - ===================================
+INFO  14:19:37,541 - Broj gresaka u lex 0
+INFO  14:19:37,541 - Broj gresaka u syn 0
+INFO  14:19:37,541 - Broj gresaka u sem 0
+INFO  14:19:37,541 - ===================================
+INFO  14:19:37,541 - Semanticka analiza uspesno zavresna! :D
+INFO  14:19:37,541 - ===================================
+INFO  14:19:37,543 - Parsiranje uspesno zavrseno! :D

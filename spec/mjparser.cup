@@ -6,6 +6,7 @@ import rs.etf.pp1.symboltable.concepts.*;
 import java.util.*;
 import rs.ac.bg.etf.pp1.test.CompilerError;
 import rs.ac.bg.etf.pp1.test.CompilerError.CompilerErrorType;
+
 parser code {:
     Logger log = Logger.getLogger(getClass());
     boolean errorDetected = false;
@@ -76,6 +77,7 @@ nonterminal Assignop;
 nonterminal Relop;
 nonterminal Addop;
 nonterminal Mulop;
+nonterminal LabelForGoto;
 
 // Program
 Program ::= (Program)PROG ProgName:p ProgramDeclList LBRACE MethodDeclList RBRACE;
@@ -140,8 +142,10 @@ Type ::= (Type)IDENT:LabelTypeName;
 
 //Statement
 StatementList ::= (MulStatementList)StatementList Statement |
-					(GoToStatementList)StatementList IDENT:GoToLabel COLON Statement |
+					(GoToStatementList)StatementList LabelForGoto COLON Statement |
 					(EmptyStatementList)/* epsilon */;
+					
+LabelForGoto ::= (LabelForGoto)IDENT:GoToLabel;
 				
 //SingleStatement	
 Statement ::= (StatementClassic)DesignatorStatement SEMI |			
@@ -225,5 +229,5 @@ Relop ::= (RelopBoolEqual)BOOL_EQUAL |
 //Mulop
 Mulop ::= (MulopMul)MUL |
 			(MulopDiv)DIV |
-			(MulopMod)MOD;
+			(MulopMod)MOD;						
 				

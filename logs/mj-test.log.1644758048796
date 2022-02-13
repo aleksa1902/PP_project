@@ -1,0 +1,18 @@
+INFO  14:12:11,801 - Compiling source file: D:\eclipse-workspace\propalipokusaj\test\program.mj
+INFO  14:12:11,804 - #2 program
+INFO  14:12:11,804 - #54 prog
+INFO  14:12:11,804 - #42 {
+INFO  14:12:11,804 - #15 void
+INFO  14:12:11,805 - #54 main
+INFO  14:12:11,805 - #38 (
+INFO  14:12:11,805 - #39 )
+INFO  14:12:11,805 - #42 {
+INFO  14:12:11,805 - #12 print
+INFO  14:12:11,805 - #38 (
+INFO  14:12:11,805 - #52 10
+INFO  14:12:11,805 - #39 )
+INFO  14:12:11,805 - #35 ;
+INFO  14:12:11,805 - #43 }
+INFO  14:12:11,805 - #43 }
+INFO  14:12:11,805 - ===================================
+INFO  14:12:11,805 - Parsiranje uspesno zavrseno! :D

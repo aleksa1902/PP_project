@@ -1,271 +1,294 @@
-INFO  03:11:25,582 - Compiling source file: D:\eclipse-workspace\PP_project\test\program.mj
-INFO  03:11:25,627 - #2 program
-INFO  03:11:25,627 - #56 test301
-INFO  03:11:25,627 - #7 const
-INFO  03:11:25,628 - #56 int
-INFO  03:11:25,628 - #56 nula
-INFO  03:11:25,629 - #33 =
-INFO  03:11:25,629 - #54 0
-INFO  03:11:25,629 - #36 ;
-INFO  03:11:25,630 - #7 const
-INFO  03:11:25,630 - #56 int
-INFO  03:11:25,630 - #56 jedan
-INFO  03:11:25,631 - #33 =
-INFO  03:11:25,631 - #54 1
-INFO  03:11:25,631 - #36 ;
-INFO  03:11:25,631 - #7 const
-INFO  03:11:25,632 - #56 int
-INFO  03:11:25,632 - #56 pet
-INFO  03:11:25,632 - #33 =
-INFO  03:11:25,632 - #54 5
-INFO  03:11:25,632 - #36 ;
-INFO  03:11:25,632 - #56 int
-INFO  03:11:25,632 - #56 niz
-INFO  03:11:25,640 - #41 [
-INFO  03:11:25,640 - #42 ]
-INFO  03:11:25,640 - #36 ;
-INFO  03:11:25,640 - #56 char
-INFO  03:11:25,641 - #56 nizch
-INFO  03:11:25,641 - #41 [
-INFO  03:11:25,641 - #42 ]
-INFO  03:11:25,641 - #36 ;
-INFO  03:11:25,641 - #43 {
-INFO  03:11:25,641 - #15 void
-INFO  03:11:25,642 - #56 main
-INFO  03:11:25,642 - #39 (
-INFO  03:11:25,643 - #40 )
-INFO  03:11:25,643 - #56 int
-INFO  03:11:25,644 - #56 bodovi
-INFO  03:11:25,644 - #36 ;
-INFO  03:11:25,644 - #43 {
-INFO  03:11:25,645 - #56 bodovi
-INFO  03:11:25,645 - #33 =
-INFO  03:11:25,646 - #54 0
-INFO  03:11:25,647 - #36 ;
-INFO  03:11:25,648 - #56 bodovi
-INFO  03:11:25,648 - #34 ++
-INFO  03:11:25,648 - #36 ;
-INFO  03:11:25,648 - #56 bodovi
-INFO  03:11:25,648 - #33 =
-INFO  03:11:25,648 - #56 bodovi
-INFO  03:11:25,649 - #20 +
-INFO  03:11:25,649 - #56 jedan
-INFO  03:11:25,650 - #36 ;
-INFO  03:11:25,650 - #56 bodovi
-INFO  03:11:25,650 - #33 =
-INFO  03:11:25,650 - #56 bodovi
-INFO  03:11:25,650 - #22 *
-INFO  03:11:25,651 - #56 pet
-INFO  03:11:25,652 - #36 ;
-INFO  03:11:25,652 - #56 bodovi
-INFO  03:11:25,652 - #35 --
-INFO  03:11:25,652 - #36 ;
-INFO  03:11:25,652 - #12 print
-INFO  03:11:25,653 - #39 (
-INFO  03:11:25,653 - #56 bodovi
-INFO  03:11:25,653 - #40 )
-INFO  03:11:25,653 - #36 ;
-INFO  03:11:25,653 - #56 niz
-INFO  03:11:25,653 - #33 =
-INFO  03:11:25,653 - #11 new
-INFO  03:11:25,653 - #56 int
-INFO  03:11:25,653 - #41 [
-INFO  03:11:25,654 - #54 3
-INFO  03:11:25,654 - #42 ]
-INFO  03:11:25,654 - #36 ;
-INFO  03:11:25,654 - #56 niz
-INFO  03:11:25,654 - #41 [
-INFO  03:11:25,654 - #56 nula
-INFO  03:11:25,655 - #42 ]
-INFO  03:11:25,655 - #33 =
-INFO  03:11:25,655 - #56 jedan
-INFO  03:11:25,655 - #36 ;
-INFO  03:11:25,655 - #56 niz
-INFO  03:11:25,655 - #41 [
-INFO  03:11:25,655 - #54 1
-INFO  03:11:25,655 - #42 ]
-INFO  03:11:25,655 - #33 =
-INFO  03:11:25,656 - #54 2
-INFO  03:11:25,656 - #36 ;
-INFO  03:11:25,656 - #56 niz
-INFO  03:11:25,656 - #41 [
-INFO  03:11:25,656 - #56 niz
-INFO  03:11:25,656 - #41 [
-INFO  03:11:25,656 - #56 jedan
-INFO  03:11:25,656 - #42 ]
-INFO  03:11:25,657 - #42 ]
-INFO  03:11:25,657 - #33 =
-INFO  03:11:25,657 - #56 niz
-INFO  03:11:25,657 - #41 [
-INFO  03:11:25,657 - #56 niz
-INFO  03:11:25,657 - #41 [
-INFO  03:11:25,658 - #54 0
-INFO  03:11:25,658 - #42 ]
-INFO  03:11:25,658 - #42 ]
-INFO  03:11:25,658 - #22 *
-INFO  03:11:25,659 - #54 3
-INFO  03:11:25,659 - #36 ;
-INFO  03:11:25,659 - #56 bodovi
-INFO  03:11:25,659 - #33 =
-INFO  03:11:25,659 - #56 niz
-INFO  03:11:25,659 - #41 [
-INFO  03:11:25,659 - #54 2
-INFO  03:11:25,659 - #42 ]
-INFO  03:11:25,659 - #23 /
-INFO  03:11:25,659 - #56 niz
-INFO  03:11:25,660 - #41 [
-INFO  03:11:25,660 - #54 0
-INFO  03:11:25,660 - #42 ]
-INFO  03:11:25,660 - #36 ;
-INFO  03:11:25,661 - #12 print
-INFO  03:11:25,661 - #39 (
-INFO  03:11:25,661 - #56 bodovi
-INFO  03:11:25,661 - #40 )
-INFO  03:11:25,661 - #36 ;
-INFO  03:11:25,661 - #12 print
-INFO  03:11:25,661 - #39 (
-INFO  03:11:25,661 - #56 niz
-INFO  03:11:25,662 - #41 [
-INFO  03:11:25,662 - #54 2
-INFO  03:11:25,662 - #42 ]
-INFO  03:11:25,663 - #40 )
-INFO  03:11:25,663 - #36 ;
-INFO  03:11:25,663 - #56 nizch
-INFO  03:11:25,663 - #33 =
-INFO  03:11:25,663 - #11 new
-INFO  03:11:25,663 - #56 char
-INFO  03:11:25,663 - #41 [
-INFO  03:11:25,663 - #54 3
-INFO  03:11:25,663 - #42 ]
-INFO  03:11:25,663 - #36 ;
-INFO  03:11:25,663 - #56 nizch
-INFO  03:11:25,664 - #41 [
-INFO  03:11:25,664 - #54 0
-INFO  03:11:25,664 - #42 ]
-INFO  03:11:25,664 - #33 =
-INFO  03:11:25,664 - #55 a
-INFO  03:11:25,664 - #36 ;
-INFO  03:11:25,664 - #56 nizch
-INFO  03:11:25,664 - #41 [
-INFO  03:11:25,664 - #56 jedan
-INFO  03:11:25,664 - #42 ]
-INFO  03:11:25,665 - #33 =
-INFO  03:11:25,665 - #55 b
-INFO  03:11:25,665 - #36 ;
-INFO  03:11:25,665 - #56 nizch
-INFO  03:11:25,665 - #41 [
-INFO  03:11:25,665 - #56 pet
-INFO  03:11:25,665 - #21 -
-INFO  03:11:25,665 - #54 3
-INFO  03:11:25,665 - #42 ]
-INFO  03:11:25,666 - #33 =
-INFO  03:11:25,666 - #55 c
-INFO  03:11:25,666 - #36 ;
-INFO  03:11:25,666 - #12 print
-INFO  03:11:25,666 - #39 (
-INFO  03:11:25,666 - #56 nizch
-INFO  03:11:25,666 - #41 [
-INFO  03:11:25,666 - #54 1
-INFO  03:11:25,666 - #42 ]
-INFO  03:11:25,666 - #40 )
-INFO  03:11:25,666 - #36 ;
-INFO  03:11:25,666 - #12 print
-INFO  03:11:25,666 - #39 (
-INFO  03:11:25,666 - #56 nizch
-INFO  03:11:25,666 - #41 [
-INFO  03:11:25,666 - #56 jedan
-INFO  03:11:25,666 - #22 *
-INFO  03:11:25,666 - #54 2
-INFO  03:11:25,667 - #42 ]
-INFO  03:11:25,667 - #40 )
-INFO  03:11:25,667 - #36 ;
-INFO  03:11:25,667 - #56 bodovi
-INFO  03:11:25,667 - #33 =
-INFO  03:11:25,667 - #56 bodovi
-INFO  03:11:25,667 - #20 +
-INFO  03:11:25,667 - #39 (
-INFO  03:11:25,667 - #56 pet
-INFO  03:11:25,667 - #22 *
-INFO  03:11:25,667 - #56 jedan
-INFO  03:11:25,667 - #21 -
-INFO  03:11:25,667 - #54 1
-INFO  03:11:25,667 - #40 )
-INFO  03:11:25,668 - #22 *
-INFO  03:11:25,668 - #56 bodovi
-INFO  03:11:25,668 - #21 -
-INFO  03:11:25,668 - #39 (
-INFO  03:11:25,668 - #54 3
-INFO  03:11:25,669 - #24 %
-INFO  03:11:25,669 - #54 2
-INFO  03:11:25,669 - #20 +
-INFO  03:11:25,669 - #54 3
-INFO  03:11:25,670 - #22 *
-INFO  03:11:25,670 - #54 2
-INFO  03:11:25,670 - #21 -
-INFO  03:11:25,670 - #54 3
-INFO  03:11:25,670 - #40 )
-INFO  03:11:25,670 - #36 ;
-INFO  03:11:25,670 - #12 print
-INFO  03:11:25,670 - #39 (
-INFO  03:11:25,670 - #56 bodovi
-INFO  03:11:25,670 - #40 )
-INFO  03:11:25,670 - #36 ;
-INFO  03:11:25,670 - #13 read
-INFO  03:11:25,670 - #39 (
-INFO  03:11:25,670 - #56 bodovi
-INFO  03:11:25,670 - #40 )
-INFO  03:11:25,670 - #36 ;
-INFO  03:11:25,670 - #12 print
-INFO  03:11:25,671 - #39 (
-INFO  03:11:25,671 - #56 bodovi
-INFO  03:11:25,671 - #40 )
-INFO  03:11:25,671 - #36 ;
-INFO  03:11:25,671 - #56 bodovi
-INFO  03:11:25,671 - #34 ++
-INFO  03:11:25,671 - #36 ;
-INFO  03:11:25,671 - #19 goto
-INFO  03:11:25,671 - #56 labela1
-INFO  03:11:25,671 - #36 ;
-INFO  03:11:25,671 - #56 bodovi
-INFO  03:11:25,671 - #33 =
-INFO  03:11:25,671 - #56 bodovi
-INFO  03:11:25,671 - #22 *
-INFO  03:11:25,671 - #54 2
-INFO  03:11:25,671 - #36 ;
-INFO  03:11:25,671 - #56 bodovi
-INFO  03:11:25,671 - #35 --
-INFO  03:11:25,671 - #36 ;
-INFO  03:11:25,671 - #56 labela1
-INFO  03:11:25,671 - #37 :
-INFO  03:11:25,671 - #56 bodovi
-INFO  03:11:25,671 - #33 =
-INFO  03:11:25,671 - #56 bodovi
-INFO  03:11:25,671 - #20 +
-INFO  03:11:25,672 - #54 3
-INFO  03:11:25,672 - #36 ;
-INFO  03:11:25,672 - #12 print
-INFO  03:11:25,672 - #39 (
-INFO  03:11:25,672 - #56 bodovi
-INFO  03:11:25,672 - #40 )
-INFO  03:11:25,672 - #36 ;
-INFO  03:11:25,672 - #19 goto
-INFO  03:11:25,672 - #56 labelaminus
-INFO  03:11:25,672 - #36 ;
-INFO  03:11:25,672 - #12 print
-INFO  03:11:25,672 - #39 (
-INFO  03:11:25,672 - #55 +
-INFO  03:11:25,672 - #40 )
-INFO  03:11:25,672 - #36 ;
-INFO  03:11:25,672 - #56 labelaminus
-INFO  03:11:25,672 - #37 :
-INFO  03:11:25,673 - #12 print
-INFO  03:11:25,673 - #39 (
-INFO  03:11:25,673 - #55 -
-INFO  03:11:25,673 - #40 )
-INFO  03:11:25,673 - #36 ;
-INFO  03:11:25,673 - #44 }
-INFO  03:11:25,673 - #44 }
-INFO  03:11:25,679 - Program(
+INFO  14:59:55,245 - Compiling source file: D:\eclipse-workspace\propalipokusaj\test\program.mj
+INFO  14:59:55,266 - #2 program
+INFO  14:59:55,267 - #56 test301
+INFO  14:59:55,267 - #7 const
+INFO  14:59:55,267 - #56 int
+INFO  14:59:55,267 - #56 nula
+INFO  14:59:55,268 - #33 =
+INFO  14:59:55,268 - #54 0
+INFO  14:59:55,268 - #36 ;
+INFO  14:59:55,269 - #7 const
+INFO  14:59:55,269 - #56 int
+INFO  14:59:55,269 - #56 jedan
+INFO  14:59:55,269 - #33 =
+INFO  14:59:55,269 - #54 1
+INFO  14:59:55,269 - #36 ;
+INFO  14:59:55,270 - #7 const
+INFO  14:59:55,270 - #56 int
+INFO  14:59:55,270 - #56 pet
+INFO  14:59:55,270 - #33 =
+INFO  14:59:55,270 - #54 5
+INFO  14:59:55,270 - #36 ;
+INFO  14:59:55,270 - #56 int
+INFO  14:59:55,270 - #56 niz
+INFO  14:59:55,278 - #41 [
+INFO  14:59:55,278 - #42 ]
+INFO  14:59:55,278 - #36 ;
+INFO  14:59:55,278 - #56 char
+INFO  14:59:55,278 - #56 nizch
+INFO  14:59:55,278 - #41 [
+INFO  14:59:55,278 - #42 ]
+INFO  14:59:55,278 - #36 ;
+INFO  14:59:55,278 - #56 int
+INFO  14:59:55,278 - #56 niztest
+INFO  14:59:55,278 - #41 [
+INFO  14:59:55,278 - #42 ]
+INFO  14:59:55,278 - #36 ;
+INFO  14:59:55,278 - #43 {
+INFO  14:59:55,279 - #15 void
+INFO  14:59:55,279 - #56 main
+INFO  14:59:55,279 - #39 (
+INFO  14:59:55,280 - #40 )
+INFO  14:59:55,280 - #56 int
+INFO  14:59:55,281 - #56 bodovi
+INFO  14:59:55,281 - #36 ;
+INFO  14:59:55,281 - #43 {
+INFO  14:59:55,281 - #56 niztest
+INFO  14:59:55,281 - #33 =
+INFO  14:59:55,282 - #11 new
+INFO  14:59:55,283 - #56 int
+INFO  14:59:55,283 - #41 [
+INFO  14:59:55,283 - #54 5
+INFO  14:59:55,283 - #42 ]
+INFO  14:59:55,283 - #36 ;
+INFO  14:59:55,283 - #56 niztest
+INFO  14:59:55,283 - #41 [
+INFO  14:59:55,283 - #56 niztest
+INFO  14:59:55,284 - #41 [
+INFO  14:59:55,284 - #54 0
+INFO  14:59:55,284 - #42 ]
+INFO  14:59:55,284 - #42 ]
+INFO  14:59:55,284 - #33 =
+INFO  14:59:55,284 - #56 pet
+INFO  14:59:55,284 - #36 ;
+INFO  14:59:55,284 - #56 bodovi
+INFO  14:59:55,285 - #33 =
+INFO  14:59:55,285 - #54 0
+INFO  14:59:55,285 - #36 ;
+INFO  14:59:55,285 - #56 bodovi
+INFO  14:59:55,285 - #34 ++
+INFO  14:59:55,285 - #36 ;
+INFO  14:59:55,285 - #56 bodovi
+INFO  14:59:55,285 - #33 =
+INFO  14:59:55,285 - #56 bodovi
+INFO  14:59:55,285 - #20 +
+INFO  14:59:55,285 - #56 jedan
+INFO  14:59:55,286 - #36 ;
+INFO  14:59:55,286 - #56 bodovi
+INFO  14:59:55,286 - #33 =
+INFO  14:59:55,286 - #56 bodovi
+INFO  14:59:55,286 - #22 *
+INFO  14:59:55,286 - #56 pet
+INFO  14:59:55,287 - #36 ;
+INFO  14:59:55,287 - #56 bodovi
+INFO  14:59:55,287 - #35 --
+INFO  14:59:55,287 - #36 ;
+INFO  14:59:55,287 - #12 print
+INFO  14:59:55,287 - #39 (
+INFO  14:59:55,287 - #56 bodovi
+INFO  14:59:55,287 - #40 )
+INFO  14:59:55,287 - #36 ;
+INFO  14:59:55,287 - #56 niz
+INFO  14:59:55,287 - #33 =
+INFO  14:59:55,287 - #11 new
+INFO  14:59:55,287 - #56 int
+INFO  14:59:55,287 - #41 [
+INFO  14:59:55,287 - #54 3
+INFO  14:59:55,287 - #42 ]
+INFO  14:59:55,288 - #36 ;
+INFO  14:59:55,288 - #56 niz
+INFO  14:59:55,288 - #41 [
+INFO  14:59:55,288 - #56 nula
+INFO  14:59:55,288 - #42 ]
+INFO  14:59:55,288 - #33 =
+INFO  14:59:55,288 - #56 jedan
+INFO  14:59:55,288 - #36 ;
+INFO  14:59:55,288 - #56 niz
+INFO  14:59:55,288 - #41 [
+INFO  14:59:55,288 - #54 1
+INFO  14:59:55,288 - #42 ]
+INFO  14:59:55,289 - #33 =
+INFO  14:59:55,289 - #54 2
+INFO  14:59:55,289 - #36 ;
+INFO  14:59:55,289 - #56 niz
+INFO  14:59:55,289 - #41 [
+INFO  14:59:55,289 - #56 niz
+INFO  14:59:55,289 - #41 [
+INFO  14:59:55,289 - #56 jedan
+INFO  14:59:55,289 - #42 ]
+INFO  14:59:55,289 - #42 ]
+INFO  14:59:55,289 - #33 =
+INFO  14:59:55,289 - #56 niz
+INFO  14:59:55,289 - #41 [
+INFO  14:59:55,289 - #56 niz
+INFO  14:59:55,289 - #41 [
+INFO  14:59:55,289 - #54 0
+INFO  14:59:55,289 - #42 ]
+INFO  14:59:55,289 - #42 ]
+INFO  14:59:55,289 - #22 *
+INFO  14:59:55,290 - #54 3
+INFO  14:59:55,290 - #36 ;
+INFO  14:59:55,290 - #56 bodovi
+INFO  14:59:55,290 - #33 =
+INFO  14:59:55,290 - #56 niz
+INFO  14:59:55,290 - #41 [
+INFO  14:59:55,290 - #54 2
+INFO  14:59:55,290 - #42 ]
+INFO  14:59:55,290 - #23 /
+INFO  14:59:55,290 - #56 niz
+INFO  14:59:55,291 - #41 [
+INFO  14:59:55,291 - #54 0
+INFO  14:59:55,291 - #42 ]
+INFO  14:59:55,291 - #36 ;
+INFO  14:59:55,291 - #12 print
+INFO  14:59:55,291 - #39 (
+INFO  14:59:55,291 - #56 bodovi
+INFO  14:59:55,291 - #40 )
+INFO  14:59:55,291 - #36 ;
+INFO  14:59:55,291 - #12 print
+INFO  14:59:55,291 - #39 (
+INFO  14:59:55,291 - #56 niz
+INFO  14:59:55,291 - #41 [
+INFO  14:59:55,291 - #54 2
+INFO  14:59:55,291 - #42 ]
+INFO  14:59:55,291 - #40 )
+INFO  14:59:55,291 - #36 ;
+INFO  14:59:55,291 - #56 nizch
+INFO  14:59:55,291 - #33 =
+INFO  14:59:55,291 - #11 new
+INFO  14:59:55,291 - #56 char
+INFO  14:59:55,291 - #41 [
+INFO  14:59:55,291 - #54 3
+INFO  14:59:55,291 - #42 ]
+INFO  14:59:55,291 - #36 ;
+INFO  14:59:55,291 - #56 nizch
+INFO  14:59:55,291 - #41 [
+INFO  14:59:55,291 - #54 0
+INFO  14:59:55,291 - #42 ]
+INFO  14:59:55,291 - #33 =
+INFO  14:59:55,291 - #55 a
+INFO  14:59:55,292 - #36 ;
+INFO  14:59:55,292 - #56 nizch
+INFO  14:59:55,292 - #41 [
+INFO  14:59:55,292 - #56 jedan
+INFO  14:59:55,292 - #42 ]
+INFO  14:59:55,292 - #33 =
+INFO  14:59:55,292 - #55 b
+INFO  14:59:55,292 - #36 ;
+INFO  14:59:55,292 - #56 nizch
+INFO  14:59:55,292 - #41 [
+INFO  14:59:55,292 - #56 pet
+INFO  14:59:55,292 - #21 -
+INFO  14:59:55,292 - #54 3
+INFO  14:59:55,292 - #42 ]
+INFO  14:59:55,292 - #33 =
+INFO  14:59:55,292 - #55 c
+INFO  14:59:55,292 - #36 ;
+INFO  14:59:55,292 - #12 print
+INFO  14:59:55,292 - #39 (
+INFO  14:59:55,292 - #56 nizch
+INFO  14:59:55,292 - #41 [
+INFO  14:59:55,293 - #54 1
+INFO  14:59:55,293 - #42 ]
+INFO  14:59:55,293 - #40 )
+INFO  14:59:55,293 - #36 ;
+INFO  14:59:55,293 - #12 print
+INFO  14:59:55,293 - #39 (
+INFO  14:59:55,293 - #56 nizch
+INFO  14:59:55,293 - #41 [
+INFO  14:59:55,293 - #56 jedan
+INFO  14:59:55,293 - #22 *
+INFO  14:59:55,293 - #54 2
+INFO  14:59:55,293 - #42 ]
+INFO  14:59:55,293 - #40 )
+INFO  14:59:55,293 - #36 ;
+INFO  14:59:55,293 - #56 bodovi
+INFO  14:59:55,293 - #33 =
+INFO  14:59:55,293 - #56 bodovi
+INFO  14:59:55,293 - #20 +
+INFO  14:59:55,293 - #39 (
+INFO  14:59:55,293 - #56 pet
+INFO  14:59:55,294 - #22 *
+INFO  14:59:55,294 - #56 jedan
+INFO  14:59:55,294 - #21 -
+INFO  14:59:55,294 - #54 1
+INFO  14:59:55,294 - #40 )
+INFO  14:59:55,294 - #22 *
+INFO  14:59:55,294 - #56 bodovi
+INFO  14:59:55,294 - #21 -
+INFO  14:59:55,294 - #39 (
+INFO  14:59:55,294 - #54 3
+INFO  14:59:55,294 - #24 %
+INFO  14:59:55,294 - #54 2
+INFO  14:59:55,294 - #20 +
+INFO  14:59:55,294 - #54 3
+INFO  14:59:55,294 - #22 *
+INFO  14:59:55,294 - #54 2
+INFO  14:59:55,294 - #21 -
+INFO  14:59:55,295 - #54 3
+INFO  14:59:55,295 - #40 )
+INFO  14:59:55,295 - #36 ;
+INFO  14:59:55,295 - #12 print
+INFO  14:59:55,295 - #39 (
+INFO  14:59:55,295 - #56 bodovi
+INFO  14:59:55,295 - #40 )
+INFO  14:59:55,295 - #36 ;
+INFO  14:59:55,295 - #13 read
+INFO  14:59:55,295 - #39 (
+INFO  14:59:55,295 - #56 bodovi
+INFO  14:59:55,295 - #40 )
+INFO  14:59:55,295 - #36 ;
+INFO  14:59:55,295 - #12 print
+INFO  14:59:55,295 - #39 (
+INFO  14:59:55,295 - #56 bodovi
+INFO  14:59:55,295 - #40 )
+INFO  14:59:55,295 - #36 ;
+INFO  14:59:55,295 - #56 bodovi
+INFO  14:59:55,295 - #34 ++
+INFO  14:59:55,295 - #36 ;
+INFO  14:59:55,295 - #19 goto
+INFO  14:59:55,295 - #56 labela1
+INFO  14:59:55,295 - #36 ;
+INFO  14:59:55,295 - #56 bodovi
+INFO  14:59:55,295 - #33 =
+INFO  14:59:55,295 - #56 bodovi
+INFO  14:59:55,295 - #22 *
+INFO  14:59:55,295 - #54 2
+INFO  14:59:55,295 - #36 ;
+INFO  14:59:55,295 - #56 bodovi
+INFO  14:59:55,295 - #35 --
+INFO  14:59:55,295 - #36 ;
+INFO  14:59:55,295 - #56 labela1
+INFO  14:59:55,295 - #37 :
+INFO  14:59:55,296 - #56 bodovi
+INFO  14:59:55,296 - #33 =
+INFO  14:59:55,296 - #56 bodovi
+INFO  14:59:55,296 - #20 +
+INFO  14:59:55,296 - #54 3
+INFO  14:59:55,296 - #36 ;
+INFO  14:59:55,296 - #12 print
+INFO  14:59:55,296 - #39 (
+INFO  14:59:55,296 - #56 bodovi
+INFO  14:59:55,296 - #40 )
+INFO  14:59:55,296 - #36 ;
+INFO  14:59:55,296 - #19 goto
+INFO  14:59:55,296 - #56 labelaminus
+INFO  14:59:55,296 - #36 ;
+INFO  14:59:55,296 - #12 print
+INFO  14:59:55,296 - #39 (
+INFO  14:59:55,296 - #55 +
+INFO  14:59:55,296 - #40 )
+INFO  14:59:55,296 - #36 ;
+INFO  14:59:55,296 - #56 labelaminus
+INFO  14:59:55,296 - #37 :
+INFO  14:59:55,296 - #12 print
+INFO  14:59:55,296 - #39 (
+INFO  14:59:55,296 - #55 -
+INFO  14:59:55,296 - #40 )
+INFO  14:59:55,297 - #36 ;
+INFO  14:59:55,297 - #44 }
+INFO  14:59:55,297 - #44 }
+INFO  14:59:55,301 - Program(
   ProgName(
    test301
   ) [ProgName]
@@ -274,8 +297,25 @@ INFO  03:11:25,679 - Program(
       MulGlobalDeclList(
         MulGlobalDeclList(
           MulGlobalDeclList(
-            EmptyGlobalDecl(
-            ) [EmptyGlobalDecl]
+            MulGlobalDeclList(
+              EmptyGlobalDecl(
+              ) [EmptyGlobalDecl]
+              GlobalConstDecl(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  SingleConstDeclList(
+                    ConstDef(
+                     nula
+                      NumConstVal(
+                       0
+                      ) [NumConstVal]
+                    ) [ConstDef]
+                  ) [SingleConstDeclList]
+                ) [ConstDecl]
+              ) [GlobalConstDecl]
+            ) [MulGlobalDeclList]
             GlobalConstDecl(
               ConstDecl(
                 Type(
@@ -283,9 +323,9 @@ INFO  03:11:25,679 - Program(
                 ) [Type]
                 SingleConstDeclList(
                   ConstDef(
-                   nula
+                   jedan
                     NumConstVal(
-                     0
+                     1
                     ) [NumConstVal]
                   ) [ConstDef]
                 ) [SingleConstDeclList]
@@ -299,39 +339,36 @@ INFO  03:11:25,679 - Program(
               ) [Type]
               SingleConstDeclList(
                 ConstDef(
-                 jedan
+                 pet
                   NumConstVal(
-                   1
+                   5
                   ) [NumConstVal]
                 ) [ConstDef]
               ) [SingleConstDeclList]
             ) [ConstDecl]
           ) [GlobalConstDecl]
         ) [MulGlobalDeclList]
-        GlobalConstDecl(
-          ConstDecl(
+        GlobalVarDecl(
+          VarDeclNoError(
             Type(
              int
             ) [Type]
-            SingleConstDeclList(
-              ConstDef(
-               pet
-                NumConstVal(
-                 5
-                ) [NumConstVal]
-              ) [ConstDef]
-            ) [SingleConstDeclList]
-          ) [ConstDecl]
-        ) [GlobalConstDecl]
+            SingleVarDeclList(
+              ArrayVarDef(
+               niz
+              ) [ArrayVarDef]
+            ) [SingleVarDeclList]
+          ) [VarDeclNoError]
+        ) [GlobalVarDecl]
       ) [MulGlobalDeclList]
       GlobalVarDecl(
         VarDeclNoError(
           Type(
-           int
+           char
           ) [Type]
           SingleVarDeclList(
             ArrayVarDef(
-             niz
+             nizch
             ) [ArrayVarDef]
           ) [SingleVarDeclList]
         ) [VarDeclNoError]
@@ -340,11 +377,11 @@ INFO  03:11:25,679 - Program(
     GlobalVarDecl(
       VarDeclNoError(
         Type(
-         char
+         int
         ) [Type]
         SingleVarDeclList(
           ArrayVarDef(
-           nizch
+           niztest
           ) [ArrayVarDef]
         ) [SingleVarDeclList]
       ) [VarDeclNoError]
@@ -407,8 +444,87 @@ INFO  03:11:25,679 - Program(
                                                                 MulStatementList(
                                                                   MulStatementList(
                                                                     MulStatementList(
-                                                                      EmptyStatementList(
-                                                                      ) [EmptyStatementList]
+                                                                      MulStatementList(
+                                                                        MulStatementList(
+                                                                          EmptyStatementList(
+                                                                          ) [EmptyStatementList]
+                                                                          StatementClassic(
+                                                                            DesingnatorVal(
+                                                                              Designator(
+                                                                               niztest
+                                                                                DesignatorClassic(
+                                                                                ) [DesignatorClassic]
+                                                                              ) [Designator]
+                                                                              AssignopClassic(
+                                                                              ) [AssignopClassic]
+                                                                              ExprClassic(
+                                                                                TermClassic(
+                                                                                  NewFactorArray(
+                                                                                    Type(
+                                                                                     int
+                                                                                    ) [Type]
+                                                                                    ExprClassic(
+                                                                                      TermClassic(
+                                                                                        ConstNumFactor(
+                                                                                         5
+                                                                                        ) [ConstNumFactor]
+                                                                                      ) [TermClassic]
+                                                                                    ) [ExprClassic]
+                                                                                  ) [NewFactorArray]
+                                                                                ) [TermClassic]
+                                                                              ) [ExprClassic]
+                                                                            ) [DesingnatorVal]
+                                                                          ) [StatementClassic]
+                                                                        ) [MulStatementList]
+                                                                        StatementClassic(
+                                                                          DesingnatorVal(
+                                                                            Designator(
+                                                                             niztest
+                                                                              DesignatorWithArray(
+                                                                                LBraceDesignatorArray(
+                                                                                ) [LBraceDesignatorArray]
+                                                                                ExprClassic(
+                                                                                  TermClassic(
+                                                                                    MethodFactor(
+                                                                                      Designator(
+                                                                                       niztest
+                                                                                        DesignatorWithArray(
+                                                                                          LBraceDesignatorArray(
+                                                                                          ) [LBraceDesignatorArray]
+                                                                                          ExprClassic(
+                                                                                            TermClassic(
+                                                                                              ConstNumFactor(
+                                                                                               0
+                                                                                              ) [ConstNumFactor]
+                                                                                            ) [TermClassic]
+                                                                                          ) [ExprClassic]
+                                                                                        ) [DesignatorWithArray]
+                                                                                      ) [Designator]
+                                                                                      NoneFactorParsOpt(
+                                                                                      ) [NoneFactorParsOpt]
+                                                                                    ) [MethodFactor]
+                                                                                  ) [TermClassic]
+                                                                                ) [ExprClassic]
+                                                                              ) [DesignatorWithArray]
+                                                                            ) [Designator]
+                                                                            AssignopClassic(
+                                                                            ) [AssignopClassic]
+                                                                            ExprClassic(
+                                                                              TermClassic(
+                                                                                MethodFactor(
+                                                                                  Designator(
+                                                                                   pet
+                                                                                    DesignatorClassic(
+                                                                                    ) [DesignatorClassic]
+                                                                                  ) [Designator]
+                                                                                  NoneFactorParsOpt(
+                                                                                  ) [NoneFactorParsOpt]
+                                                                                ) [MethodFactor]
+                                                                              ) [TermClassic]
+                                                                            ) [ExprClassic]
+                                                                          ) [DesingnatorVal]
+                                                                        ) [StatementClassic]
+                                                                      ) [MulStatementList]
                                                                       StatementClassic(
                                                                         DesingnatorVal(
                                                                           Designator(
@@ -1241,7 +1357,9 @@ INFO  03:11:25,679 - Program(
                     ) [DesignatorDecrement]
                   ) [StatementClassic]
                 ) [MulStatementList]
-               labela1
+                LabelForGoto(
+                 labela1
+                ) [LabelForGoto]
                 StatementClassic(
                   DesingnatorVal(
                     Designator(
@@ -1306,7 +1424,9 @@ INFO  03:11:25,679 - Program(
             ) [ExprClassic]
           ) [PrintStatementNoArgs]
         ) [MulStatementList]
-       labelaminus
+        LabelForGoto(
+         labelaminus
+        ) [LabelForGoto]
         PrintStatementNoArgs(
           ExprClassic(
             TermClassic(
@@ -1320,12 +1440,12 @@ INFO  03:11:25,679 - Program(
     ) [MethodDecl]
   ) [MulMethodDeclList]
 ) [Program]
-INFO  03:11:25,682 - ===================================
-INFO  03:11:25,690 - ===================================
-INFO  03:11:25,690 - Broj gresaka u lex 0
-INFO  03:11:25,690 - Broj gresaka u syn 0
-INFO  03:11:25,690 - Broj gresaka u sem 0
-INFO  03:11:25,690 - ===================================
-INFO  03:11:25,690 - Semanticka analiza uspesno zavresna! :D
-INFO  03:11:25,690 - ===================================
-INFO  03:11:25,693 - Parsiranje uspesno zavrseno! :D
+INFO  14:59:55,302 - ===================================
+INFO  14:59:55,307 - ===================================
+INFO  14:59:55,307 - Broj gresaka u lex 0
+INFO  14:59:55,307 - Broj gresaka u syn 0
+INFO  14:59:55,307 - Broj gresaka u sem 0
+INFO  14:59:55,307 - ===================================
+INFO  14:59:55,307 - Semanticka analiza uspesno zavresna! :D
+INFO  14:59:55,307 - ===================================
+INFO  14:59:55,309 - Parsiranje uspesno zavrseno! :D

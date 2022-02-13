@@ -8,11 +8,13 @@ program test301
 
 	int niz[];
 	char nizch[];
+	int niztest[];
 	
 {
 	void main()	
 		int bodovi;
 	{
+		
 		bodovi = 0;
 		bodovi++;
 		bodovi = bodovi + jedan;

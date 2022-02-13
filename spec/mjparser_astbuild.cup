@@ -6,6 +6,7 @@ import rs.etf.pp1.symboltable.concepts.*;
 import java.util.*;
 import rs.ac.bg.etf.pp1.test.CompilerError;
 import rs.ac.bg.etf.pp1.test.CompilerError.CompilerErrorType;
+
 parser code {:
     Logger log = Logger.getLogger(getClass());
     boolean errorDetected = false;
@@ -89,6 +90,7 @@ nonterminal Assignop Assignop;
 nonterminal Relop Relop;
 nonterminal Addop Addop;
 nonterminal Mulop Mulop;
+nonterminal LabelForGoto LabelForGoto;
 
 // Program
 Program ::= (Program)PROG ProgName:p ProgramDeclList:P1 LBRACE MethodDeclList:M2 RBRACE {: RESULT=new Program(p, P1, M2); RESULT.setLine(pleft); :};
@@ -153,8 +155,10 @@ Type ::= (Type)IDENT:LabelTypeName {: RESULT=new Type(LabelTypeName); RESULT.set
 
 //Statement
 StatementList ::= (MulStatementList)StatementList:S1 Statement:S2 {: RESULT=new MulStatementList(S1, S2); RESULT.setLine(S1left); :} |
-					(GoToStatementList)StatementList:S1 IDENT:GoToLabel COLON Statement:S2 {: RESULT=new GoToStatementList(S1, GoToLabel, S2); RESULT.setLine(S1left); :} |
+					(GoToStatementList)StatementList:S1 LabelForGoto:L2 COLON Statement:S3 {: RESULT=new GoToStatementList(S1, L2, S3); RESULT.setLine(S1left); :} |
 					(EmptyStatementList) {: RESULT=new EmptyStatementList(); :}/* epsilon */;
+					
+LabelForGoto ::= (LabelForGoto)IDENT:GoToLabel {: RESULT=new LabelForGoto(GoToLabel); RESULT.setLine(GoToLabelleft); :};
 				
 //SingleStatement	
 Statement ::= (StatementClassic)DesignatorStatement:D1 SEMI {: RESULT=new StatementClassic(D1); RESULT.setLine(D1left); :} |			
@@ -238,5 +242,5 @@ Relop ::= (RelopBoolEqual)BOOL_EQUAL {: RESULT=new RelopBoolEqual(); :} |
 //Mulop
 Mulop ::= (MulopMul)MUL {: RESULT=new MulopMul(); :} |
 			(MulopDiv)DIV {: RESULT=new MulopDiv(); :} |
-			(MulopMod)MOD {: RESULT=new MulopMod(); :};
+			(MulopMod)MOD {: RESULT=new MulopMod(); :};						
 				
