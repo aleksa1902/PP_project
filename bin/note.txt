@@ -1,0 +1,1 @@
+ovde drzimo config za log4j

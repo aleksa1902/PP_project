@@ -1,0 +1,229 @@
+package rs.ac.bg.etf.pp1;
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+import rs.etf.pp1.symboltable.concepts.*;
+import java.util.*;
+import rs.ac.bg.etf.pp1.test.CompilerError;
+import rs.ac.bg.etf.pp1.test.CompilerError.CompilerErrorType;
+parser code {:
+    Logger log = Logger.getLogger(getClass());
+    boolean errorDetected = false;
+    private List<CompilerError> synErrors = new ArrayList<>();
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+    public void report_error(String message, Object info) {
+        errorDetected = true;
+        StringBuilder msg = new StringBuilder(message);
+        if (info instanceof Symbol)
+        {
+            msg.append (" na liniji ").append(((Symbol)info).left);
+            CompilerError c= new CompilerError(((Symbol)info).left, msg.append (" na liniji ").append(((Symbol)info).left).toString(), CompilerErrorType.SYNTAX_ERROR);
+            synErrors.add(c);
+        }
+        log.error(msg.toString());
+    }
+    public List<CompilerError> getErrors()
+    {
+        return synErrors;
+    }
+:}
+scan with {:
+    Symbol s = this.getScanner().next_token();
+    if (s != null && s.value != null)
+        log.info(s.toString() + " " + s.value.toString());
+    return s;
+:}
+init with {:
+    errorDetected = false;
+:}
+terminal PROG, BREAK, CLASS, ENUM, ELSE, CONST, IF, DO, WHILE, NEW, PRINT, READ, RETURN, VOID, EXTENDS, CONTINUE, CASE, GOTO;
+terminal PLUS, MINUS, MUL, DIV, MOD, BOOL_EQUAL, BOOL_NOT_EQUAL, GREATER, GREATER_OR_EQUAL, LESS, LESS_OR_EQUAL;
+terminal AND, OR, EQUALS, INC, DEC, SEMI, COLON, COMMA, LPAREN, RPAREN, LSQUARE, RSQUARE, LBRACE, RBRACE, CONDITIONAL, DOT;
+terminal PLUS_EQUALS, MINUS_EQUALS, MUL_EQUALS, DIV_EQUALS, MOD_EQUALS, MODIFOPERATOR;
+terminal Boolean BOOL_CONST;
+terminal Integer NUM_CONST;
+terminal Character CHAR_CONST;
+terminal String IDENT;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgName;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ConstDef, ConstVal;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj VarDecl, VarDeclList, VarDefinition;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj FormParsDef, MethodType, Designator, Expression, ExprOpt, Term, Factor;
+
+
+nonterminal ProgramDeclList, GlobalDeclaration;
+nonterminal ConstDecl, ConstDeclList;
+nonterminal MethodDeclList, MethodDecl, MethodStart, MethodVarDeclList;
+nonterminal FormPars, FormParsOpt, FormParsList;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type;
+nonterminal StatementList;
+nonterminal Statement;
+nonterminal DesignatorStatement, MethodCheck;
+nonterminal ActPars, ActParsOpt, ActParsList, ActParsDef;
+nonterminal FactorParsOpt, FactorMethodCheck;
+nonterminal DesignatorArray, LBraceDesignatorArray;
+nonterminal Assignop;
+nonterminal Relop;
+nonterminal Addop;
+nonterminal Mulop;
+
+// Program
+Program ::= (Program)PROG ProgName:p ProgramDeclList LBRACE MethodDeclList RBRACE;
+ProgName ::= (ProgName)IDENT:progName;
+
+ProgramDeclList ::= (MulGlobalDeclList)ProgramDeclList GlobalDeclaration | 
+					(EmptyGlobalDecl) /* epsilon */ ;
+
+GlobalDeclaration ::= (GlobalConstDecl)ConstDecl | 
+						(GlobalVarDecl)VarDecl;
+
+//ConstDecl
+ConstDecl ::= (ConstDecl)CONST Type ConstDeclList SEMI;
+
+ConstDeclList ::= (MulConstDeclList)ConstDeclList COMMA ConstDef | 
+					(SingleConstDeclList)ConstDef;
+
+ConstDef ::= (ConstDef)IDENT:LabelConstName EQUALS ConstVal:LabelConstVal;
+
+ConstVal ::= (NumConstVal)NUM_CONST:numValue | 
+			(CharConstVal)CHAR_CONST:charValue | 
+			(BoolConstVal)BOOL_CONST:boolValue;
+
+//VarDecl
+VarDecl ::=(VarDeclNoError)Type VarDeclList SEMI |
+			(VarDeclError)error:LabelError {: parser.report_error("Sintaksna greska, izvrsen oporavak u liniji " + LabelErrorleft, null); :};
+			
+VarDeclList ::= (MulVarDeclList)VarDeclList COMMA VarDefinition |
+				(SingleVarDeclList)VarDefinition;
+
+VarDefinition ::= (OneVarDef)IDENT:LabelVarDefinitionName |
+			(ArrayVarDef)IDENT:LabelArrayName LSQUARE RSQUARE;
+
+// Method
+MethodDeclList ::= (MulMethodDeclList)MethodDeclList MethodDecl |
+					(NoneMethodDeclList) /* epsilon */;
+
+MethodDecl ::= (MethodDecl)MethodStart LPAREN FormPars RPAREN MethodVarDeclList LBRACE StatementList RBRACE;
+
+MethodStart ::= (MethodStart)MethodType;
+
+MethodType ::= (MethodTypeVoid)VOID IDENT:LabelMethodName|
+				(MethodTypeOther)Type IDENT:LabelMethodName;
+
+MethodVarDeclList ::= (MulMethodVarDeclList)MethodVarDeclList VarDecl |
+						(EmptyMethodVarDeclList) /* epsilon */;
+					
+// FormPars
+FormPars ::= (FormParsA)FormParsOpt |
+			(EmptyFormPars)/* epsilon */;
+			
+FormParsOpt ::= (FormParsOpt)FormParsDef FormParsList;
+
+FormParsDef ::= (FormParsClassic)Type IDENT:LabelParameterName |
+				(ArrayFormPars)Type IDENT:LabelParameterName LSQUARE RSQUARE;
+				
+FormParsList ::= (MulFormParsList) FormParsList COMMA FormParsDef |
+				(EmptyFormParsList) /* epsilon */;
+				
+//Type
+Type ::= (Type)IDENT:LabelTypeName;
+
+//Statement
+StatementList ::= (MulStatementList)StatementList Statement |
+					(GoToStatementList)StatementList IDENT:GoToLabel COLON Statement |
+					(EmptyStatementList)/* epsilon */;
+				
+//SingleStatement	
+Statement ::= (StatementClassic)DesignatorStatement SEMI |			
+				(DoWhileStatement)DO StatementList WHILE LPAREN StatementList RPAREN SEMI |
+				(BreakStatement)BREAK SEMI |
+				(ContinueStatement)CONTINUE SEMI |
+				(GotoStatement)GOTO IDENT:LabelStatement SEMI |
+				(ReadStatement)READ LPAREN Designator RPAREN SEMI |
+				(PrintStatementNoArgs)PRINT LPAREN Expression RPAREN SEMI |
+				(PrintStatementArgs)PRINT LPAREN Expression COMMA NUM_CONST:LabelNumConst RPAREN SEMI |
+				(ReturnStatement)RETURN ExprOpt SEMI;
+				
+//DesignatorStatement
+DesignatorStatement ::= (DesingnatorVal)Designator Assignop Expression |
+						(DesignatorIncrement)Designator INC |
+						(DesignatorDecrement)Designator DEC |
+						(DesignatorMethod)Designator MethodCheck LPAREN ActPars RPAREN;
+						
+MethodCheck ::= (MethodCheck)/* epsilon */;
+
+//ActPars
+ActPars ::= (MulActPars)ActParsOpt |
+			(EmptyActPars) /* epsilon */;
+			
+ActParsOpt ::= (ActParsOpt)ActParsList;
+
+ActParsList ::= (MulActParsList) ActParsList COMMA ActParsDef |
+				(SingleActParsList)ActParsDef;
+				
+ActParsDef ::= (ActParsDef) Expression;
+
+//Expr
+ExprOpt ::= (MulExpr)Expression |
+		(NoneExpr)/* epsilon */;
+		
+Expression ::= (ExprClassic)Term |
+			(SubExprTerm)MINUS Term |
+			(MulExprTerm)Expression Addop Term;
+
+//Term
+Term ::= (TermClassic)Factor |
+		(MulTerm)Term Mulop Factor;
+		
+//Factor
+Factor ::= (MethodFactor)Designator FactorParsOpt |
+			(ConstNumFactor)NUM_CONST |
+			(ConstCharFactor)CHAR_CONST |
+			(ConstBoolFactor)BOOL_CONST |
+			(NewFactorClassic)NEW Type |
+			(NewFactorArray)NEW Type LSQUARE Expression RSQUARE |
+			(FactorExpr)LPAREN Expression RPAREN;
+
+FactorParsOpt ::= (FactorParsOptClassic)FactorMethodCheck LPAREN ActPars RPAREN |
+					(NoneFactorParsOpt)/* epsilon */;
+					
+FactorMethodCheck ::= (FactorMethodCheck)/* epsilon */;
+
+//Designator
+Designator ::= (Designator)IDENT:LabelDesignatorName DesignatorArray;
+
+DesignatorArray ::= (DesignatorWithArray)LBraceDesignatorArray Expression RSQUARE |
+					(DesignatorClassic) /* epsilon */;
+
+LBraceDesignatorArray ::= (LBraceDesignatorArray) LSQUARE;
+//Assignop
+Assignop ::= (AssignopClassic)EQUALS |
+			(AssignopError)error:LabelError {: parser.report_error("Sintaksna greska, izvrsen oporavak u liniji " + LabelErrorleft, null); :};
+
+// Addop
+Addop ::= (AddopAdd)PLUS |
+			(AddopSub)MINUS;
+
+//Relop
+Relop ::= (RelopBoolEqual)BOOL_EQUAL |
+			(RelopBoolNotEqual)BOOL_NOT_EQUAL |
+			(RelopGreater)GREATER |
+			(RelopGreaterOrEqual)GREATER_OR_EQUAL |
+			(RelopLess)LESS |
+			(RelopLessOrEqual)LESS_OR_EQUAL;
+
+//Mulop
+Mulop ::= (MulopMul)MUL |
+			(MulopDiv)DIV |
+			(MulopMod)MOD;
+				

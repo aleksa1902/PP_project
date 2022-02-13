@@ -77,7 +77,7 @@
 		<java classname="rs.etf.pp1.mj.runtime.Run">
 			<arg value="test/program.obj"/>
 <!--			<arg value="-debug"/>-->
-			<redirector input="test/program.in"/>
+			<redirector input="src/test/program.in"/>
 			<classpath>
 				<pathelement location="lib/mj-runtime-1.1.jar"/>
 			</classpath>

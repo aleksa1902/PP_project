@@ -1,0 +1,461 @@
+INFO  22:28:10,049 - Compiling source file: D:\eclipse-workspace\PP_project\test\program.mj
+INFO  22:28:10,075 - #2 program
+INFO  22:28:10,075 - #56 MJProgram
+INFO  22:28:10,075 - #7 const
+INFO  22:28:10,076 - #56 int
+INFO  22:28:10,076 - #56 x
+INFO  22:28:10,077 - #33 =
+INFO  22:28:10,077 - #54 3
+INFO  22:28:10,077 - #36 ;
+INFO  22:28:10,078 - #7 const
+INFO  22:28:10,078 - #56 bool
+INFO  22:28:10,078 - #56 y
+INFO  22:28:10,079 - #33 =
+INFO  22:28:10,079 - #53 true
+INFO  22:28:10,079 - #36 ;
+INFO  22:28:10,079 - #7 const
+INFO  22:28:10,079 - #56 char
+INFO  22:28:10,079 - #56 z
+INFO  22:28:10,079 - #33 =
+INFO  22:28:10,079 - #55 a
+INFO  22:28:10,079 - #36 ;
+INFO  22:28:10,080 - #56 int
+INFO  22:28:10,080 - #56 a
+INFO  22:28:10,086 - #36 ;
+INFO  22:28:10,086 - #56 int
+INFO  22:28:10,086 - #56 b
+INFO  22:28:10,086 - #38 ,
+INFO  22:28:10,086 - #56 c
+INFO  22:28:10,086 - #38 ,
+INFO  22:28:10,086 - #56 d
+INFO  22:28:10,086 - #41 [
+INFO  22:28:10,086 - #42 ]
+INFO  22:28:10,086 - #36 ;
+INFO  22:28:10,086 - #43 {
+INFO  22:28:10,087 - #15 void
+INFO  22:28:10,087 - #56 main
+INFO  22:28:10,087 - #39 (
+INFO  22:28:10,087 - #40 )
+INFO  22:28:10,088 - #56 int
+INFO  22:28:10,089 - #56 e
+INFO  22:28:10,089 - #38 ,
+INFO  22:28:10,089 - #56 f
+INFO  22:28:10,089 - #36 ;
+INFO  22:28:10,089 - #56 char
+INFO  22:28:10,089 - #56 g
+INFO  22:28:10,089 - #36 ;
+INFO  22:28:10,089 - #43 {
+INFO  22:28:10,089 - #56 e
+INFO  22:28:10,090 - #33 =
+INFO  22:28:10,091 - #54 1
+INFO  22:28:10,091 - #36 ;
+INFO  22:28:10,092 - #56 f
+INFO  22:28:10,092 - #33 =
+INFO  22:28:10,092 - #21 -
+INFO  22:28:10,092 - #56 e
+INFO  22:28:10,092 - #20 +
+INFO  22:28:10,092 - #54 3
+INFO  22:28:10,093 - #36 ;
+INFO  22:28:10,094 - #56 d
+INFO  22:28:10,094 - #33 =
+INFO  22:28:10,094 - #11 new
+INFO  22:28:10,094 - #56 int
+INFO  22:28:10,094 - #41 [
+INFO  22:28:10,094 - #56 e
+INFO  22:28:10,094 - #20 +
+INFO  22:28:10,094 - #56 f
+INFO  22:28:10,094 - #42 ]
+INFO  22:28:10,094 - #36 ;
+INFO  22:28:10,094 - #56 d
+INFO  22:28:10,094 - #41 [
+INFO  22:28:10,094 - #56 d
+INFO  22:28:10,094 - #41 [
+INFO  22:28:10,094 - #54 2
+INFO  22:28:10,094 - #42 ]
+INFO  22:28:10,094 - #42 ]
+INFO  22:28:10,095 - #34 ++
+INFO  22:28:10,095 - #36 ;
+INFO  22:28:10,095 - #12 print
+INFO  22:28:10,095 - #39 (
+INFO  22:28:10,095 - #56 d
+INFO  22:28:10,095 - #41 [
+INFO  22:28:10,095 - #54 1
+INFO  22:28:10,095 - #42 ]
+INFO  22:28:10,095 - #40 )
+INFO  22:28:10,095 - #36 ;
+INFO  22:28:10,095 - #12 print
+INFO  22:28:10,095 - #39 (
+INFO  22:28:10,095 - #56 e
+INFO  22:28:10,095 - #40 )
+INFO  22:28:10,095 - #36 ;
+INFO  22:28:10,095 - #12 print
+INFO  22:28:10,095 - #39 (
+INFO  22:28:10,095 - #56 e
+INFO  22:28:10,096 - #38 ,
+INFO  22:28:10,096 - #54 10
+INFO  22:28:10,096 - #40 )
+INFO  22:28:10,096 - #36 ;
+INFO  22:28:10,096 - #12 print
+INFO  22:28:10,096 - #39 (
+INFO  22:28:10,096 - #54 10
+INFO  22:28:10,096 - #40 )
+INFO  22:28:10,096 - #36 ;
+INFO  22:28:10,096 - #44 }
+INFO  22:28:10,097 - #44 }
+INFO  22:28:10,099 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  MulGlobalDeclList(
+    MulGlobalDeclList(
+      MulGlobalDeclList(
+        MulGlobalDeclList(
+          MulGlobalDeclList(
+            EmptyGlobalDecl(
+            ) [EmptyGlobalDecl]
+            GlobalConstDecl(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                SingleConstDeclList(
+                  ConstDef(
+                   x
+                    NumConstVal(
+                     3
+                    ) [NumConstVal]
+                  ) [ConstDef]
+                ) [SingleConstDeclList]
+              ) [ConstDecl]
+            ) [GlobalConstDecl]
+          ) [MulGlobalDeclList]
+          GlobalConstDecl(
+            ConstDecl(
+              Type(
+               bool
+              ) [Type]
+              SingleConstDeclList(
+                ConstDef(
+                 y
+                  BoolConstVal(
+                   true
+                  ) [BoolConstVal]
+                ) [ConstDef]
+              ) [SingleConstDeclList]
+            ) [ConstDecl]
+          ) [GlobalConstDecl]
+        ) [MulGlobalDeclList]
+        GlobalConstDecl(
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+            SingleConstDeclList(
+              ConstDef(
+               z
+                CharConstVal(
+                 a
+                ) [CharConstVal]
+              ) [ConstDef]
+            ) [SingleConstDeclList]
+          ) [ConstDecl]
+        ) [GlobalConstDecl]
+      ) [MulGlobalDeclList]
+      GlobalVarDecl(
+        VarDeclNoError(
+          Type(
+           int
+          ) [Type]
+          SingleVarDeclList(
+            OneVarDef(
+             a
+            ) [OneVarDef]
+          ) [SingleVarDeclList]
+        ) [VarDeclNoError]
+      ) [GlobalVarDecl]
+    ) [MulGlobalDeclList]
+    GlobalVarDecl(
+      VarDeclNoError(
+        Type(
+         int
+        ) [Type]
+        MulVarDeclList(
+          MulVarDeclList(
+            SingleVarDeclList(
+              OneVarDef(
+               b
+              ) [OneVarDef]
+            ) [SingleVarDeclList]
+            OneVarDef(
+             c
+            ) [OneVarDef]
+          ) [MulVarDeclList]
+          ArrayVarDef(
+           d
+          ) [ArrayVarDef]
+        ) [MulVarDeclList]
+      ) [VarDeclNoError]
+    ) [GlobalVarDecl]
+  ) [MulGlobalDeclList]
+  MulMethodDeclList(
+    NoneMethodDeclList(
+    ) [NoneMethodDeclList]
+    MethodDecl(
+      MethodStart(
+        MethodTypeVoid(
+         main
+        ) [MethodTypeVoid]
+      ) [MethodStart]
+      EmptyFormPars(
+      ) [EmptyFormPars]
+      MulMethodVarDeclList(
+        MulMethodVarDeclList(
+          EmptyMethodVarDeclList(
+          ) [EmptyMethodVarDeclList]
+          VarDeclNoError(
+            Type(
+             int
+            ) [Type]
+            MulVarDeclList(
+              SingleVarDeclList(
+                OneVarDef(
+                 e
+                ) [OneVarDef]
+              ) [SingleVarDeclList]
+              OneVarDef(
+               f
+              ) [OneVarDef]
+            ) [MulVarDeclList]
+          ) [VarDeclNoError]
+        ) [MulMethodVarDeclList]
+        VarDeclNoError(
+          Type(
+           char
+          ) [Type]
+          SingleVarDeclList(
+            OneVarDef(
+             g
+            ) [OneVarDef]
+          ) [SingleVarDeclList]
+        ) [VarDeclNoError]
+      ) [MulMethodVarDeclList]
+      MulStatementList(
+        MulStatementList(
+          MulStatementList(
+            MulStatementList(
+              MulStatementList(
+                MulStatementList(
+                  MulStatementList(
+                    MulStatementList(
+                      EmptyStatementList(
+                      ) [EmptyStatementList]
+                      StatementClassic(
+                        DesingnatorVal(
+                          Designator(
+                           e
+                            DesignatorClassic(
+                            ) [DesignatorClassic]
+                          ) [Designator]
+                          AssignopClassic(
+                          ) [AssignopClassic]
+                          ExprClassic(
+                            TermClassic(
+                              ConstNumFactor(
+                               1
+                              ) [ConstNumFactor]
+                            ) [TermClassic]
+                          ) [ExprClassic]
+                        ) [DesingnatorVal]
+                      ) [StatementClassic]
+                    ) [MulStatementList]
+                    StatementClassic(
+                      DesingnatorVal(
+                        Designator(
+                         f
+                          DesignatorClassic(
+                          ) [DesignatorClassic]
+                        ) [Designator]
+                        AssignopClassic(
+                        ) [AssignopClassic]
+                        MulExprTerm(
+                          SubExprTerm(
+                            TermClassic(
+                              MethodFactor(
+                                Designator(
+                                 e
+                                  DesignatorClassic(
+                                  ) [DesignatorClassic]
+                                ) [Designator]
+                                NoneFactorParsOpt(
+                                ) [NoneFactorParsOpt]
+                              ) [MethodFactor]
+                            ) [TermClassic]
+                          ) [SubExprTerm]
+                          AddopAdd(
+                          ) [AddopAdd]
+                          TermClassic(
+                            ConstNumFactor(
+                             3
+                            ) [ConstNumFactor]
+                          ) [TermClassic]
+                        ) [MulExprTerm]
+                      ) [DesingnatorVal]
+                    ) [StatementClassic]
+                  ) [MulStatementList]
+                  StatementClassic(
+                    DesingnatorVal(
+                      Designator(
+                       d
+                        DesignatorClassic(
+                        ) [DesignatorClassic]
+                      ) [Designator]
+                      AssignopClassic(
+                      ) [AssignopClassic]
+                      ExprClassic(
+                        TermClassic(
+                          NewFactorArray(
+                            Type(
+                             int
+                            ) [Type]
+                            MulExprTerm(
+                              ExprClassic(
+                                TermClassic(
+                                  MethodFactor(
+                                    Designator(
+                                     e
+                                      DesignatorClassic(
+                                      ) [DesignatorClassic]
+                                    ) [Designator]
+                                    NoneFactorParsOpt(
+                                    ) [NoneFactorParsOpt]
+                                  ) [MethodFactor]
+                                ) [TermClassic]
+                              ) [ExprClassic]
+                              AddopAdd(
+                              ) [AddopAdd]
+                              TermClassic(
+                                MethodFactor(
+                                  Designator(
+                                   f
+                                    DesignatorClassic(
+                                    ) [DesignatorClassic]
+                                  ) [Designator]
+                                  NoneFactorParsOpt(
+                                  ) [NoneFactorParsOpt]
+                                ) [MethodFactor]
+                              ) [TermClassic]
+                            ) [MulExprTerm]
+                          ) [NewFactorArray]
+                        ) [TermClassic]
+                      ) [ExprClassic]
+                    ) [DesingnatorVal]
+                  ) [StatementClassic]
+                ) [MulStatementList]
+                StatementClassic(
+                  DesignatorIncrement(
+                    Designator(
+                     d
+                      DesignatorWithArray(
+                        ExprClassic(
+                          TermClassic(
+                            MethodFactor(
+                              Designator(
+                               d
+                                DesignatorWithArray(
+                                  ExprClassic(
+                                    TermClassic(
+                                      ConstNumFactor(
+                                       2
+                                      ) [ConstNumFactor]
+                                    ) [TermClassic]
+                                  ) [ExprClassic]
+                                ) [DesignatorWithArray]
+                              ) [Designator]
+                              NoneFactorParsOpt(
+                              ) [NoneFactorParsOpt]
+                            ) [MethodFactor]
+                          ) [TermClassic]
+                        ) [ExprClassic]
+                      ) [DesignatorWithArray]
+                    ) [Designator]
+                  ) [DesignatorIncrement]
+                ) [StatementClassic]
+              ) [MulStatementList]
+              PrintStatementNoArgs(
+                ExprClassic(
+                  TermClassic(
+                    MethodFactor(
+                      Designator(
+                       d
+                        DesignatorWithArray(
+                          ExprClassic(
+                            TermClassic(
+                              ConstNumFactor(
+                               1
+                              ) [ConstNumFactor]
+                            ) [TermClassic]
+                          ) [ExprClassic]
+                        ) [DesignatorWithArray]
+                      ) [Designator]
+                      NoneFactorParsOpt(
+                      ) [NoneFactorParsOpt]
+                    ) [MethodFactor]
+                  ) [TermClassic]
+                ) [ExprClassic]
+              ) [PrintStatementNoArgs]
+            ) [MulStatementList]
+            PrintStatementNoArgs(
+              ExprClassic(
+                TermClassic(
+                  MethodFactor(
+                    Designator(
+                     e
+                      DesignatorClassic(
+                      ) [DesignatorClassic]
+                    ) [Designator]
+                    NoneFactorParsOpt(
+                    ) [NoneFactorParsOpt]
+                  ) [MethodFactor]
+                ) [TermClassic]
+              ) [ExprClassic]
+            ) [PrintStatementNoArgs]
+          ) [MulStatementList]
+          PrintStatementArgs(
+            ExprClassic(
+              TermClassic(
+                MethodFactor(
+                  Designator(
+                   e
+                    DesignatorClassic(
+                    ) [DesignatorClassic]
+                  ) [Designator]
+                  NoneFactorParsOpt(
+                  ) [NoneFactorParsOpt]
+                ) [MethodFactor]
+              ) [TermClassic]
+            ) [ExprClassic]
+           10
+          ) [PrintStatementArgs]
+        ) [MulStatementList]
+        PrintStatementNoArgs(
+          ExprClassic(
+            TermClassic(
+              ConstNumFactor(
+               10
+              ) [ConstNumFactor]
+            ) [TermClassic]
+          ) [ExprClassic]
+        ) [PrintStatementNoArgs]
+      ) [MulStatementList]
+    ) [MethodDecl]
+  ) [MulMethodDeclList]
+) [Program]
+INFO  22:28:10,099 - ===================================
+INFO  22:28:10,104 - ===================================
+INFO  22:28:10,104 - Broj gresaka u lex 0
+INFO  22:28:10,104 - Broj gresaka u syn 0
+INFO  22:28:10,104 - Broj gresaka u sem 0
+INFO  22:28:10,104 - ===================================
+INFO  22:28:10,104 - Semanticka analiza uspesno zavresna! :D
+INFO  22:28:10,104 - ===================================
+INFO  22:28:10,106 - Parsiranje uspesno zavrseno! :D
